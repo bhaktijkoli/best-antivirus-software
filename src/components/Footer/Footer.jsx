@@ -35,7 +35,7 @@ class Footer extends Component {
                   	<h4>Need help choosing? Call us at 1-800-564-8245</h4>
 
                       <ul className="footer-menu">
-                      	<li><a href="#">About</a></li>
+                      	<li><Link to="/about">About</Link></li>
                           <li><a href="#">Contact</a></li>
                           <li><a href="#">Disclaimer</a></li>
                           <li><Link to="/privacy-policy">Privacy Policy</Link></li>
