@@ -13779,37 +13779,37 @@ var Banner = function (_Component) {
               ),
               _react2.default.createElement(
                 "a",
-                { href: "#", className: "fb" },
+                { href: "#", className: "fb", style: { marginRight: '10px' } },
                 _react2.default.createElement("i", { className: "fa fa-facebook" }),
                 " 27"
               ),
               _react2.default.createElement(
                 "a",
-                { href: "#", className: "twt" },
+                { href: "#", className: "twt", style: { marginRight: '10px' } },
                 _react2.default.createElement("i", { className: "fa fa-twitter" }),
                 " 13"
               ),
               _react2.default.createElement(
                 "a",
-                { href: "#", className: "g-plus" },
+                { href: "#", className: "g-plus", style: { marginRight: '10px' } },
                 _react2.default.createElement("i", { className: "fa fa-google-plus" }),
                 " 9"
               ),
               _react2.default.createElement(
                 "a",
-                { href: "#", className: "pint" },
+                { href: "#", className: "pint", style: { marginRight: '10px' } },
                 _react2.default.createElement("i", { className: "fa fa-pinterest" }),
                 " 4"
               ),
               _react2.default.createElement(
                 "a",
-                { href: "#", className: "linkdin" },
+                { href: "#", className: "linkdin", style: { marginRight: '10px' } },
                 _react2.default.createElement("i", { className: "fa fa-linkedin" }),
                 " 2"
               ),
               _react2.default.createElement(
                 "a",
-                { href: "#", className: "last-one" },
+                { href: "#", className: "last-one", style: { marginRight: '10px' } },
                 _react2.default.createElement("i", { className: "fa fa-stumbleupon" }),
                 " 2"
               )

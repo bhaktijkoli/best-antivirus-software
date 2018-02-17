@@ -1,5 +1,5 @@
-@import url('fontawesome/font-awesome.css');
-@import url('fontawesome/ionicons.min.css');
+/* @import url('fontawesome/font-awesome.css');
+@import url('fontawesome/ionicons.min.css'); */
 @import url('fonts/worksans/worksans.css');
 @import url('fonts/proxima/proxima.css');
 
@@ -34,7 +34,7 @@ body
 }
 
 /************************
-      || Header || 
+      || Header ||
 ************************/
 .header {
 	position: absolute;
@@ -93,7 +93,7 @@ body
 }
 
 /************************
-      || Banner || 
+      || Banner ||
 ************************/
 .banner
 {
@@ -593,7 +593,7 @@ body
 	bottom:0;
 	width:100%;
 	padding:10px;
-	
+
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,000000+100&0+0,1+100 */
 background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -625,17 +625,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 	float:left;
 	width:100%;
 }
-
-
-.accordion-toggle:after {
-    font-family: 'FontAwesome';
-    content: "\f078";    
-    float: right;
-}
-.accordion-opened .accordion-toggle:after {    
-    content: "\f054";    
-}
-
 
 .accordian
 {
@@ -701,32 +690,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 	color:#cccccc;
 	font-size:14px;
 	margin-left:15px;
-}
-.panel-heading [data-toggle="collapse"]:after {
-    font-family: "Ionicons";
-    content: "\f3d0"; /* "play" icon */
-    float: left;
-    color: #939393;
-    font-size: 22px;
-    line-height: 22px;
-    margin-right: 18px;
-    margin-top:0px;
-    /* rotate "play" icon from > (right arrow) to down arrow */
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg); 
-}
-
-.panel-heading [data-toggle="collapse"].collapsed:after {
-    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-   -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg); 
-    color: #939393;
 }
 .accordian .table_cus
 {
@@ -817,7 +780,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 {
 	color:#b3bac9 !important;
 	font-size:14px;
-	
+
 
 }
 
@@ -861,7 +824,7 @@ float: left;}
 
 .ff img{    float: left;
     width: 33px;}
-	
+
 .ff h3{    color: #80878e; font-size:13px;}
 
 @media (max-width:1000px)
@@ -870,7 +833,7 @@ float: left;}
 {
 	height:auto;
 	padding-bottom:50px;
-}	
+}
 .map img {
 	width: 100%;
 }
