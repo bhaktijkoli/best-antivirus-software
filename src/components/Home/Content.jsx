@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Content extends Component {
   render() {
@@ -110,8 +111,7 @@ class Content extends Component {
                   <div className="row">
                     <div className="col-sm-7 col-xs-12 description">
                       <p>Voted Best Antivirus 2018. Removes all Viruses, Malware, Spyware, & Adware. </p>
-
-                      <a href="#">READ REVIEW</a>
+                      <Link to="/review">READ REVIEW</Link>
                     </div>
 
 
@@ -158,7 +158,7 @@ class Content extends Component {
                     <div className="col-sm-7 col-xs-12 description">
                       <p>Protects Againest All Malware, Viruses & Adware. Includes PC Cleaner & Optimizer </p>
 
-                      <a href="#">READ REVIEW</a>
+                      <Link to="/review">READ REVIEW</Link>
                     </div>
 
 
@@ -205,7 +205,7 @@ class Content extends Component {
                     <div className="col-sm-7 col-xs-12 description">
                       <p>Fantastic value for money! Very slick setup and easy to use. </p>
 
-                      <a href="#">READ REVIEW</a>
+                      <Link to="/review">READ REVIEW</Link>
                     </div>
 
 
@@ -253,7 +253,7 @@ class Content extends Component {
                     <div className="col-sm-7 col-xs-12 description">
                       <p>Mcafee is a good quality Antivirus software, slightly expensive.</p>
 
-                      <a href="#">READ REVIEW</a>
+                      <Link to="/review">READ REVIEW</Link>
                     </div>
 
 
@@ -300,7 +300,7 @@ class Content extends Component {
                     <div className="col-sm-7 col-xs-12 description">
                       <p>Plenty of features to choose from, Norton are a trusted brand. Can be slow.</p>
 
-                      <a href="#">READ REVIEW</a>
+                      <Link to="/review">READ REVIEW</Link>
                     </div>
 
 
@@ -347,7 +347,7 @@ class Content extends Component {
                     <div className="col-sm-7 col-xs-12 description">
                       <p>Good engine, Quite expensive considering the amount of features.</p>
 
-                      <a href="#">READ REVIEW</a>
+                      <Link to="/review">READ REVIEW</Link>
                     </div>
 
 
@@ -394,7 +394,7 @@ class Content extends Component {
                     <div className="col-sm-7 col-xs-12 description">
                       <p>Spy Remover Pro is one of the industry leaders in Adwar</p>
 
-                      <a href="#">READ REVIEW</a>
+                      <Link to="/review">READ REVIEW</Link>
                     </div>
 
 
@@ -441,7 +441,7 @@ class Content extends Component {
                     <div className="col-sm-7 col-xs-12 description">
                       <p>Panda Anti-Virus Pro is a reputable award winning cyber security company</p>
 
-                      <a href="#">READ REVIEW</a>
+                      <Link to="/review">READ REVIEW</Link>
                     </div>
 
 
@@ -488,7 +488,7 @@ class Content extends Component {
                     <div className="col-sm-7 col-xs-12 description">
                       <p>At the time of writing this article, Avira has 564 Million installs Worldwide!</p>
 
-                      <a href="#">READ REVIEW</a>
+                      <Link to="/review">READ REVIEW</Link>
                     </div>
 
 
@@ -535,7 +535,7 @@ class Content extends Component {
                     <div className="col-sm-7 col-xs-12 description">
                       <p>Middle of the road antivirus, not overly expensive but not feature packed.</p>
 
-                      <a href="#">READ REVIEW</a>
+                      <Link to="/review">READ REVIEW</Link>
                     </div>
 
 
