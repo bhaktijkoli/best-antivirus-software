@@ -5,6 +5,10 @@ import Banner from './Banner.jsx';
 import Content from './Content.jsx';
 
 class Review extends Component {
+  componentDidMount() {
+    document.title = "Review of TotalAV.com";
+    $(window).scrollTop(0);
+  }
   render() {
     return(
       <div>

@@ -13488,6 +13488,8 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRouterDom = __webpack_require__(6);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -13506,106 +13508,106 @@ var Header = function (_Component) {
   }
 
   _createClass(Header, [{
-    key: "render",
+    key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        "header",
-        { className: "header" },
+        'header',
+        { className: 'header' },
         _react2.default.createElement(
-          "div",
-          { className: "container" },
+          'div',
+          { className: 'container' },
           _react2.default.createElement(
-            "div",
-            { className: "row" },
+            'div',
+            { className: 'row' },
             _react2.default.createElement(
-              "div",
-              { className: "navigation" },
+              'div',
+              { className: 'navigation' },
               _react2.default.createElement(
-                "nav",
-                { className: "navbar navbar-default" },
+                'nav',
+                { className: 'navbar navbar-default' },
                 _react2.default.createElement(
-                  "div",
-                  { className: "container-fluid" },
+                  'div',
+                  { className: 'container-fluid' },
                   _react2.default.createElement(
-                    "div",
-                    { className: "navbar-header" },
+                    'div',
+                    { className: 'navbar-header' },
                     _react2.default.createElement(
-                      "button",
-                      { type: "button", className: "navbar-toggle collapsed", "data-toggle": "collapse", "data-target": "#bs-example-navbar-collapse-1", "aria-expanded": "false" },
+                      'button',
+                      { type: 'button', className: 'navbar-toggle collapsed', 'data-toggle': 'collapse', 'data-target': '#bs-example-navbar-collapse-1', 'aria-expanded': 'false' },
                       _react2.default.createElement(
-                        "span",
-                        { className: "sr-only" },
-                        "Toggle navigation"
+                        'span',
+                        { className: 'sr-only' },
+                        'Toggle navigation'
                       ),
-                      _react2.default.createElement("span", { className: "icon-bar" }),
-                      _react2.default.createElement("span", { className: "icon-bar" }),
-                      _react2.default.createElement("span", { className: "icon-bar" })
+                      _react2.default.createElement('span', { className: 'icon-bar' }),
+                      _react2.default.createElement('span', { className: 'icon-bar' }),
+                      _react2.default.createElement('span', { className: 'icon-bar' })
                     ),
                     _react2.default.createElement(
-                      "a",
-                      { className: "navbar-brand", href: "#" },
-                      _react2.default.createElement("img", { src: "/images/logo.png", alt: "" })
+                      'a',
+                      { className: 'navbar-brand', href: '#' },
+                      _react2.default.createElement('img', { src: '/images/logo.png', alt: '' })
                     )
                   ),
                   _react2.default.createElement(
-                    "div",
-                    { className: "navbar-right" },
+                    'div',
+                    { className: 'navbar-right' },
                     _react2.default.createElement(
-                      "div",
-                      { className: "collapse navbar-collapse", id: "bs-example-navbar-collapse-1" },
+                      'div',
+                      { className: 'collapse navbar-collapse', id: 'bs-example-navbar-collapse-1' },
                       _react2.default.createElement(
-                        "ul",
-                        { className: "nav navbar-nav" },
+                        'ul',
+                        { className: 'nav navbar-nav' },
                         _react2.default.createElement(
-                          "li",
+                          'li',
                           null,
                           _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Home"
+                            _reactRouterDom.Link,
+                            { to: '/' },
+                            'Home'
                           )
                         ),
                         _react2.default.createElement(
-                          "li",
+                          'li',
                           null,
                           _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Blog"
+                            'a',
+                            { href: '#' },
+                            'Blog'
                           )
                         ),
                         _react2.default.createElement(
-                          "li",
+                          'li',
                           null,
                           _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "About"
+                            _reactRouterDom.Link,
+                            { to: 'about' },
+                            'About'
                           )
                         ),
                         _react2.default.createElement(
-                          "li",
+                          'li',
                           null,
                           _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Contact"
+                            'a',
+                            { href: '#' },
+                            'Contact'
                           )
                         )
                       )
                     ),
                     _react2.default.createElement(
-                      "div",
-                      { className: "contact-detail pull-right" },
+                      'div',
+                      { className: 'contact-detail pull-right' },
                       _react2.default.createElement(
-                        "h4",
+                        'h4',
                         null,
-                        "Need help choosing?"
+                        'Need help choosing?'
                       ),
                       _react2.default.createElement(
-                        "span",
+                        'span',
                         null,
-                        "Call us at 1-800-564-8245"
+                        'Call us at 1-800-564-8245'
                       )
                     )
                   )
@@ -13668,6 +13670,11 @@ var Home = function (_Component) {
   }
 
   _createClass(Home, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      $(window).scrollTop(0);
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -15542,6 +15549,12 @@ var Review = function (_Component) {
   }
 
   _createClass(Review, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "Review of TotalAV.com";
+      $(window).scrollTop(0);
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -16513,6 +16526,12 @@ var PrivacyPolicy = function (_Component) {
   }
 
   _createClass(PrivacyPolicy, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "Privacy Policy";
+      $(window).scrollTop(0);
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -28515,6 +28534,12 @@ var About = function (_Component) {
   }
 
   _createClass(About, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "About";
+      $(window).scrollTop(0);
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -28802,6 +28827,12 @@ var Disclaimer = function (_Component) {
   }
 
   _createClass(Disclaimer, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "Disclaimer";
+      $(window).scrollTop(0);
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -29091,6 +29122,12 @@ var Terms = function (_Component) {
   }
 
   _createClass(Terms, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "Terms &amp; Conditions";
+      $(window).scrollTop(0);
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(

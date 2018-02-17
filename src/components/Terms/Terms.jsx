@@ -5,6 +5,10 @@ import Banner from './Banner.jsx';
 import Content from './Content.jsx';
 
 class Terms extends Component {
+  componentDidMount() {
+    document.title = "Terms &amp; Conditions";
+    $(window).scrollTop(0);
+  }
   render() {
     return(
       <div>

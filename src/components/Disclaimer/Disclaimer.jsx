@@ -5,6 +5,10 @@ import Banner from './Banner.jsx';
 import Content from './Content.jsx';
 
 class Disclaimer extends Component {
+  componentDidMount() {
+    document.title = "Disclaimer";
+    $(window).scrollTop(0);
+  }
   render() {
     return(
       <div>
