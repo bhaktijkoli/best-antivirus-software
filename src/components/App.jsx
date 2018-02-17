@@ -5,6 +5,7 @@ import Header from './Header/Header.jsx';
 import Home from './Home/Home.jsx';
 import Review from './Review/Review.jsx';
 import About from './About/About.jsx';
+import Disclaimer from './Disclaimer/Disclaimer.jsx';
 import PrivacyPolicy from './PrivacyPolicy/PrivacyPolicy.jsx';
 import Footer from './Footer/Footer.jsx';
 
@@ -17,6 +18,7 @@ class App extends Component {
             <Route exact path="/" component={Home}/>
             <Route exact path="/review" component={Review}/>
             <Route exact path="/about" component={About}/>
+            <Route exact path="/disclaimer" component={Disclaimer}/>
             <Route exact path="/privacy-policy" component={PrivacyPolicy}/>
           <Footer />
         </div>

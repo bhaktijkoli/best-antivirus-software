@@ -37,7 +37,7 @@ class Footer extends Component {
                       <ul className="footer-menu">
                       	<li><Link to="/about">About</Link></li>
                           <li><a href="#">Contact</a></li>
-                          <li><a href="#">Disclaimer</a></li>
+                          <li><Link to="/disclaimer">Disclaimer</Link></li>
                           <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                           <li><a href="#">Terms & Conditions</a></li>
                       </ul>
