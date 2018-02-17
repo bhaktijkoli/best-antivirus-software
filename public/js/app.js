@@ -16900,7 +16900,7 @@ var Banner = function (_Component) {
             _react2.default.createElement(
               'h1',
               null,
-              'Terms & Conditions'
+              'Contact'
             )
           ),
           _react2.default.createElement(
