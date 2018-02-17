@@ -12,6 +12,7 @@ class Content extends Component {
                   <div className="inner-content">
                     <h3>Terms &amp; Conditions</h3>
                     <p>Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl.</p>
+                    <p style={{marginTop:'15px'}}>Lorem ipsum dolor consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. </p>
                   </div>
                 </div>
               </div>
