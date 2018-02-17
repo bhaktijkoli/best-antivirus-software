@@ -798,7 +798,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 .mm{padding:10px}
 .fom{width: 47%;
     padding: 5px;
-    margin: 8px;
+    margin: 8px 8px 8px 0px;
 float: left;}
 .raj{    clear: both;
     margin: 14px;
@@ -806,8 +806,7 @@ float: left;}
     padding-top: 18px;
 }
 
-.jom{    width: 96%;
-    margin-left: 9px;
+.jom{    width: 95%;
     height: 115px;}
 
 .ff img {width:100%;}

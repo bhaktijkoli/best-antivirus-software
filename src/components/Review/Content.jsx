@@ -139,7 +139,7 @@ class Content extends Component {
                       </div>
                       <div className="frm">
                         <div className="half">
-                          <input type="text" name="" className="fom" placeholder="Name" />
+                          <input type="text" name="" className="fom" placeholder="Name" style={{marginLeft:'14px'}}/>
                         </div>
 
                         <div className="half">
@@ -155,7 +155,7 @@ class Content extends Component {
                         </div>
 
 
-                        <textarea  name="" className="jom" placeholder="Your Comment"></textarea></div>
+                        <textarea  name="" className="jom" placeholder="Your Comment" style={{width:'98%'}}></textarea></div>
                         <div className="bott" style={{marginLeft:'9px', marginBottom:'26px'}}>
                           <button type="button bott" className="btn visit-btn">VISIT WEBSITE</button></div>
                         </div>

@@ -16108,7 +16108,7 @@ var Content = function (_Component) {
                   _react2.default.createElement(
                     "div",
                     { className: "half" },
-                    _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Name" })
+                    _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Name", style: { marginLeft: '14px' } })
                   ),
                   _react2.default.createElement(
                     "div",
@@ -16132,7 +16132,7 @@ var Content = function (_Component) {
                       _react2.default.createElement("i", { className: "icon ion-android-star" }),
                       _react2.default.createElement("i", { className: "icon ion-android-star" })
                     ),
-                    _react2.default.createElement("textarea", { name: "", className: "jom", placeholder: "Your Comment" })
+                    _react2.default.createElement("textarea", { name: "", className: "jom", placeholder: "Your Comment", style: { width: '98%' } })
                   ),
                   _react2.default.createElement(
                     "div",
@@ -16985,6 +16985,31 @@ var Content = function (_Component) {
                       "p",
                       null,
                       "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                    ),
+                    _react2.default.createElement("div", { className: "space", style: { marginTop: '20px' } }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "frm" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "half" },
+                        _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Name" })
+                      ),
+                      _react2.default.createElement(
+                        "div",
+                        { className: "half" },
+                        _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Eamil Address" })
+                      ),
+                      _react2.default.createElement("textarea", { name: "", className: "jom", placeholder: "Your Mesage" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "bott", style: { marginLeft: '9px', marginBottom: '26px' } },
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button bott", className: "btn visit-btn" },
+                        "SEND MESSAGE"
+                      )
                     )
                   )
                 )
@@ -17054,12 +17079,12 @@ var Content = function (_Component) {
                       "p",
                       null,
                       "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                    ),
+                    _react2.default.createElement(
+                      "button",
+                      { type: "button", className: "btn choose-btn" },
+                      "Choose an Antivirus"
                     )
-                  ),
-                  _react2.default.createElement(
-                    "button",
-                    { type: "button", className: "btn choose-btn" },
-                    "Choose an Antivirus"
                   )
                 )
               )
