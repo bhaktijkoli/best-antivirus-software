@@ -6,7 +6,7 @@ import Content from './Content.jsx';
 
 class Terms extends Component {
   componentDidMount() {
-    document.title = "Terms & Conditions";
+    document.title = "Contact";
     $(window).scrollTop(0);
   }
   render() {
