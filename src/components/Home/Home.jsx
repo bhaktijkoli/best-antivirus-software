@@ -6,6 +6,7 @@ import Content from './Content.jsx';
 
 class Home extends Component {
   componentDidMount() {
+    document.title = "Best Antivirus Software"
     $(window).scrollTop(0);
   }
   render() {

@@ -24,8 +24,8 @@ class Header extends Component {
                       <ul className="nav navbar-nav">
                         <li><Link to="/">Home</Link></li>
                         <li><a href="#">Blog</a></li>
-                        <li><Link to="about">About</Link></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                       </ul>
                     </div>
                     <div className="contact-detail pull-right">

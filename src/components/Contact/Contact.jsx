@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Banner from './Banner.jsx';
 import Content from './Content.jsx';
 
-class Terms extends Component {
+class Contact extends Component {
   componentDidMount() {
     document.title = "Contact";
     $(window).scrollTop(0);
@@ -20,4 +20,4 @@ class Terms extends Component {
     )
   }
 }
-export default Terms;
+export default Contact;

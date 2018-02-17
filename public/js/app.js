@@ -369,61 +369,6 @@ if (process.env.NODE_ENV !== 'production') {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/**
- * Copyright 2013-2015, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- */
-
-
-
-/**
- * Use invariant() to assert state which your program assumes to be true.
- *
- * Provide sprintf-style format (only %s is supported) and arguments
- * to provide information about what broke and what you were
- * expecting.
- *
- * The invariant message will be stripped in production, but the invariant
- * will remain to ensure logic does not differ in production.
- */
-
-var invariant = function invariant(condition, format, a, b, c, d, e, f) {
-  if (process.env.NODE_ENV !== 'production') {
-    if (format === undefined) {
-      throw new Error('invariant requires an error message argument');
-    }
-  }
-
-  if (!condition) {
-    var error;
-    if (format === undefined) {
-      error = new Error('Minified exception occurred; use the non-minified dev environment ' + 'for the full error message and additional helpful warnings.');
-    } else {
-      var args = [a, b, c, d, e, f];
-      var argIndex = 0;
-      error = new Error(format.replace(/%s/g, function () {
-        return args[argIndex++];
-      }));
-      error.name = 'Invariant Violation';
-    }
-
-    error.framesToPop = 1; // we don't care about invariant's own frame
-    throw error;
-  }
-};
-
-module.exports = invariant;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -498,6 +443,61 @@ exports.StaticRouter = _StaticRouter3.default;
 exports.Switch = _Switch3.default;
 exports.matchPath = _matchPath3.default;
 exports.withRouter = _withRouter3.default;
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */
+
+
+
+/**
+ * Use invariant() to assert state which your program assumes to be true.
+ *
+ * Provide sprintf-style format (only %s is supported) and arguments
+ * to provide information about what broke and what you were
+ * expecting.
+ *
+ * The invariant message will be stripped in production, but the invariant
+ * will remain to ensure logic does not differ in production.
+ */
+
+var invariant = function invariant(condition, format, a, b, c, d, e, f) {
+  if (process.env.NODE_ENV !== 'production') {
+    if (format === undefined) {
+      throw new Error('invariant requires an error message argument');
+    }
+  }
+
+  if (!condition) {
+    var error;
+    if (format === undefined) {
+      error = new Error('Minified exception occurred; use the non-minified dev environment ' + 'for the full error message and additional helpful warnings.');
+    } else {
+      var args = [a, b, c, d, e, f];
+      var argIndex = 0;
+      error = new Error(format.replace(/%s/g, function () {
+        return args[argIndex++];
+      }));
+      error.name = 'Invariant Violation';
+    }
+
+    error.framesToPop = 1; // we don't care about invariant's own frame
+    throw error;
+  }
+};
+
+module.exports = invariant;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
 /* 6 */
@@ -1327,7 +1327,7 @@ var _warning = __webpack_require__(1);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -2166,7 +2166,7 @@ var _propTypes = __webpack_require__(3);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -2325,7 +2325,7 @@ var _warning = __webpack_require__(1);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -2575,11 +2575,11 @@ var _App2 = _interopRequireDefault(_App);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-window.$ = window.jQuery = __webpack_require__(96);
-__webpack_require__(98);
+window.$ = window.jQuery = __webpack_require__(99);
+__webpack_require__(101);
 // require('./scripts/common.js');
 // require('./scripts/respond.min.js');
-__webpack_require__(99);
+__webpack_require__(102);
 
 // import styles from './scss/app.scss';
 
@@ -9329,7 +9329,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 var _Header = __webpack_require__(76);
 
@@ -9347,23 +9347,23 @@ var _About = __webpack_require__(83);
 
 var _About2 = _interopRequireDefault(_About);
 
-var _Contact = __webpack_require__(100);
+var _Contact = __webpack_require__(86);
 
 var _Contact2 = _interopRequireDefault(_Contact);
 
-var _Disclaimer = __webpack_require__(86);
+var _Disclaimer = __webpack_require__(89);
 
 var _Disclaimer2 = _interopRequireDefault(_Disclaimer);
 
-var _PrivacyPolicy = __webpack_require__(89);
+var _PrivacyPolicy = __webpack_require__(92);
 
 var _PrivacyPolicy2 = _interopRequireDefault(_PrivacyPolicy);
 
-var _Terms = __webpack_require__(92);
+var _Terms = __webpack_require__(95);
 
 var _Terms2 = _interopRequireDefault(_Terms);
 
-var _Footer = __webpack_require__(95);
+var _Footer = __webpack_require__(98);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -9397,7 +9397,7 @@ var App = function (_Component) {
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/review', component: _Review2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/about', component: _About2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/contcat', component: _Contact2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/contact', component: _Contact2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/disclaimer', component: _Disclaimer2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/privacy-policy', component: _PrivacyPolicy2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/terms-and-conditions', component: _Terms2.default }),
@@ -10120,7 +10120,7 @@ var _warning = __webpack_require__(1);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -10530,7 +10530,7 @@ var _warning = __webpack_require__(1);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -11747,7 +11747,7 @@ var _propTypes = __webpack_require__(3);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -11884,7 +11884,7 @@ var _warning = __webpack_require__(1);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -12067,7 +12067,7 @@ var _warning = __webpack_require__(1);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -12391,7 +12391,7 @@ var _warning = __webpack_require__(1);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -12942,7 +12942,7 @@ var _warning = __webpack_require__(1);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -13188,7 +13188,7 @@ var _warning = __webpack_require__(1);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(4);
+var _invariant = __webpack_require__(5);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -13493,7 +13493,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13586,7 +13586,7 @@ var Header = function (_Component) {
                           null,
                           _react2.default.createElement(
                             _reactRouterDom.Link,
-                            { to: 'about' },
+                            { to: '/about' },
                             'About'
                           )
                         ),
@@ -13594,8 +13594,8 @@ var Header = function (_Component) {
                           'li',
                           null,
                           _react2.default.createElement(
-                            'a',
-                            { href: '#' },
+                            _reactRouterDom.Link,
+                            { to: '/contact' },
                             'Contact'
                           )
                         )
@@ -13647,7 +13647,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 var _Banner = __webpack_require__(78);
 
@@ -13677,6 +13677,7 @@ var Home = function (_Component) {
   _createClass(Home, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
+      document.title = "Best Antivirus Software";
       $(window).scrollTop(0);
     }
   }, {
@@ -13857,7 +13858,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -15526,7 +15527,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 var _Banner = __webpack_require__(81);
 
@@ -16503,7 +16504,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 var _Banner = __webpack_require__(84);
 
@@ -16796,13 +16797,308 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 var _Banner = __webpack_require__(87);
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
 var _Content = __webpack_require__(88);
+
+var _Content2 = _interopRequireDefault(_Content);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Contact = function (_Component) {
+  _inherits(Contact, _Component);
+
+  function Contact() {
+    _classCallCheck(this, Contact);
+
+    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
+  }
+
+  _createClass(Contact, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "Contact";
+      $(window).scrollTop(0);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_Banner2.default, null),
+        _react2.default.createElement(
+          'main',
+          null,
+          _react2.default.createElement(_Content2.default, null)
+        )
+      );
+    }
+  }]);
+
+  return Contact;
+}(_react.Component);
+
+exports.default = Contact;
+
+/***/ }),
+/* 87 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Banner = function (_Component) {
+  _inherits(Banner, _Component);
+
+  function Banner() {
+    _classCallCheck(this, Banner);
+
+    return _possibleConstructorReturn(this, (Banner.__proto__ || Object.getPrototypeOf(Banner)).apply(this, arguments));
+  }
+
+  _createClass(Banner, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'section',
+        { className: 'banner', style: { height: '290px' } },
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'banner-content' },
+            _react2.default.createElement(
+              'h1',
+              null,
+              'Terms & Conditions'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'shield' },
+            _react2.default.createElement('img', { src: '/images/shield.png', alt: '' })
+          )
+        )
+      );
+    }
+  }]);
+
+  return Banner;
+}(_react.Component);
+
+exports.default = Banner;
+
+/***/ }),
+/* 88 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Content = function (_Component) {
+  _inherits(Content, _Component);
+
+  function Content() {
+    _classCallCheck(this, Content);
+
+    return _possibleConstructorReturn(this, (Content.__proto__ || Object.getPrototypeOf(Content)).apply(this, arguments));
+  }
+
+  _createClass(Content, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "section",
+        { className: "content-part" },
+        _react2.default.createElement(
+          "div",
+          { className: "container" },
+          _react2.default.createElement(
+            "div",
+            { className: "col-sm-9 padd-r-15" },
+            _react2.default.createElement(
+              "div",
+              { className: "side-bar" },
+              _react2.default.createElement(
+                "div",
+                { className: "row" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      "Contact"
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "col-sm-3 padd-r-15" },
+            _react2.default.createElement(
+              "div",
+              { className: "side-bar" },
+              _react2.default.createElement(
+                "div",
+                { className: "row" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      " ",
+                      _react2.default.createElement(
+                        "i",
+                        null,
+                        _react2.default.createElement("img", { src: "/images/arrow.png", alt: "" })
+                      ),
+                      "Comparison Table"
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "button",
+                    { type: "button", className: "btn choose-btn" },
+                    "Compare Antivirus"
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "row" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      " ",
+                      _react2.default.createElement(
+                        "i",
+                        null,
+                        _react2.default.createElement("img", { src: "/images/shield-icon.png", alt: "" })
+                      ),
+                      "Select a Provider"
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "button",
+                    { type: "button", className: "btn choose-btn" },
+                    "Choose an Antivirus"
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Content;
+}(_react.Component);
+
+exports.default = Content;
+
+/***/ }),
+/* 89 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(4);
+
+var _Banner = __webpack_require__(90);
+
+var _Banner2 = _interopRequireDefault(_Banner);
+
+var _Content = __webpack_require__(91);
 
 var _Content2 = _interopRequireDefault(_Content);
 
@@ -16851,7 +17147,7 @@ var Disclaimer = function (_Component) {
 exports.default = Disclaimer;
 
 /***/ }),
-/* 87 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16918,7 +17214,7 @@ var Banner = function (_Component) {
 exports.default = Banner;
 
 /***/ }),
-/* 88 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17075,7 +17371,7 @@ var Content = function (_Component) {
 exports.default = Content;
 
 /***/ }),
-/* 89 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17091,13 +17387,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
-var _Banner = __webpack_require__(90);
+var _Banner = __webpack_require__(93);
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
-var _Content = __webpack_require__(91);
+var _Content = __webpack_require__(94);
 
 var _Content2 = _interopRequireDefault(_Content);
 
@@ -17146,7 +17442,7 @@ var PrivacyPolicy = function (_Component) {
 exports.default = PrivacyPolicy;
 
 /***/ }),
-/* 90 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17213,7 +17509,7 @@ var Banner = function (_Component) {
 exports.default = Banner;
 
 /***/ }),
-/* 91 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17419,7 +17715,7 @@ var Content = function (_Component) {
 exports.default = Content;
 
 /***/ }),
-/* 92 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17435,13 +17731,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
-var _Banner = __webpack_require__(93);
+var _Banner = __webpack_require__(96);
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
-var _Content = __webpack_require__(94);
+var _Content = __webpack_require__(97);
 
 var _Content2 = _interopRequireDefault(_Content);
 
@@ -17490,7 +17786,7 @@ var Terms = function (_Component) {
 exports.default = Terms;
 
 /***/ }),
-/* 93 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17557,7 +17853,7 @@ var Banner = function (_Component) {
 exports.default = Banner;
 
 /***/ }),
-/* 94 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17714,14 +18010,14 @@ var Content = function (_Component) {
 exports.default = Content;
 
 /***/ }),
-/* 95 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -17730,7 +18026,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -17741,155 +18037,155 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Footer = function (_Component) {
-    _inherits(Footer, _Component);
+  _inherits(Footer, _Component);
 
-    function Footer() {
-        _classCallCheck(this, Footer);
+  function Footer() {
+    _classCallCheck(this, Footer);
 
-        return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
-    }
+    return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+  }
 
-    _createClass(Footer, [{
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'footer',
-                { className: 'footer' },
+  _createClass(Footer, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'footer',
+        { className: 'footer' },
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-sm-6 col-xs-12' },
+            _react2.default.createElement(
+              'div',
+              { className: 'row' },
+              _react2.default.createElement(
+                'div',
+                { className: 'col-sm-7 col-xs-12' },
                 _react2.default.createElement(
+                  'div',
+                  { className: 'row' },
+                  _react2.default.createElement(
                     'div',
-                    { className: 'container' },
+                    { className: 'map' },
+                    _react2.default.createElement('img', { src: '/images/map.png', alt: '' }),
                     _react2.default.createElement(
-                        'div',
-                        { className: 'col-sm-6 col-xs-12' },
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'row' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'col-sm-7 col-xs-12' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'row' },
-                                    _react2.default.createElement(
-                                        'div',
-                                        { className: 'map' },
-                                        _react2.default.createElement('img', { src: '/images/map.png', alt: '' }),
-                                        _react2.default.createElement(
-                                            'div',
-                                            { className: 'virus-logo' },
-                                            _react2.default.createElement('img', { src: '/images/anti-virus.png', alt: '' })
-                                        )
-                                    )
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'col-sm-5 col-xs-12 address-clm' },
-                                _react2.default.createElement(
-                                    'h4',
-                                    null,
-                                    'ADDRESS'
-                                ),
-                                _react2.default.createElement(
-                                    'span',
-                                    null,
-                                    '1234 AB Street, Lorem ipsum dolor  consectetuer adipiscing.'
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'email' },
-                                    _react2.default.createElement(
-                                        'a',
-                                        { href: '#' },
-                                        'support@bestantivirussoftware.info'
-                                    )
-                                )
-                            )
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'col-sm-6 col-xs-12 right-part' },
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'row' },
-                            _react2.default.createElement(
-                                'h4',
-                                null,
-                                'Need help choosing? Call us at 1-800-564-8245'
-                            ),
-                            _react2.default.createElement(
-                                'ul',
-                                { className: 'footer-menu' },
-                                _react2.default.createElement(
-                                    'li',
-                                    null,
-                                    _react2.default.createElement(
-                                        _reactRouterDom.Link,
-                                        { to: '/about' },
-                                        'About'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    null,
-                                    _react2.default.createElement(
-                                        'a',
-                                        { href: '#' },
-                                        'Contact'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    null,
-                                    _react2.default.createElement(
-                                        _reactRouterDom.Link,
-                                        { to: '/disclaimer' },
-                                        'Disclaimer'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    null,
-                                    _react2.default.createElement(
-                                        _reactRouterDom.Link,
-                                        { to: '/privacy-policy' },
-                                        'Privacy Policy'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    null,
-                                    _react2.default.createElement(
-                                        _reactRouterDom.Link,
-                                        { to: '/terms-and-conditions' },
-                                        'Terms & Conditions'
-                                    )
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'copyright' },
-                                _react2.default.createElement(
-                                    'h4',
-                                    null,
-                                    '\xA9 2018 BestAntivirusSoftware.info All Rights Reserved.'
-                                )
-                            )
-                        )
+                      'div',
+                      { className: 'virus-logo' },
+                      _react2.default.createElement('img', { src: '/images/anti-virus.png', alt: '' })
                     )
+                  )
                 )
-            );
-        }
-    }]);
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'col-sm-5 col-xs-12 address-clm' },
+                _react2.default.createElement(
+                  'h4',
+                  null,
+                  'ADDRESS'
+                ),
+                _react2.default.createElement(
+                  'span',
+                  null,
+                  '1234 AB Street, Lorem ipsum dolor  consectetuer adipiscing.'
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'email' },
+                  _react2.default.createElement(
+                    'a',
+                    { href: '#' },
+                    'support@bestantivirussoftware.info'
+                  )
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-sm-6 col-xs-12 right-part' },
+            _react2.default.createElement(
+              'div',
+              { className: 'row' },
+              _react2.default.createElement(
+                'h4',
+                null,
+                'Need help choosing? Call us at 1-800-564-8245'
+              ),
+              _react2.default.createElement(
+                'ul',
+                { className: 'footer-menu' },
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    _reactRouterDom.Link,
+                    { to: '/about' },
+                    'About'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    _reactRouterDom.Link,
+                    { to: '/contact' },
+                    'Contact'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    _reactRouterDom.Link,
+                    { to: '/disclaimer' },
+                    'Disclaimer'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    _reactRouterDom.Link,
+                    { to: '/privacy-policy' },
+                    'Privacy Policy'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    _reactRouterDom.Link,
+                    { to: '/terms-and-conditions' },
+                    'Terms & Conditions'
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'copyright' },
+                _react2.default.createElement(
+                  'h4',
+                  null,
+                  '\xA9 2018 BestAntivirusSoftware.info All Rights Reserved.'
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
 
-    return Footer;
+  return Footer;
 }(_react.Component);
 
 exports.default = Footer;
 
 /***/ }),
-/* 96 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27815,10 +28111,10 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 	return jQuery;
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(97)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(100)(module)))
 
 /***/ }),
-/* 97 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27848,7 +28144,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 98 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28438,7 +28734,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
 }(jQuery);
 
 /***/ }),
-/* 99 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29376,301 +29672,6 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         e.stopPropagation();
     });
 }(window.jQuery);
-
-/***/ }),
-/* 100 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactRouterDom = __webpack_require__(5);
-
-var _Banner = __webpack_require__(101);
-
-var _Banner2 = _interopRequireDefault(_Banner);
-
-var _Content = __webpack_require__(102);
-
-var _Content2 = _interopRequireDefault(_Content);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Terms = function (_Component) {
-  _inherits(Terms, _Component);
-
-  function Terms() {
-    _classCallCheck(this, Terms);
-
-    return _possibleConstructorReturn(this, (Terms.__proto__ || Object.getPrototypeOf(Terms)).apply(this, arguments));
-  }
-
-  _createClass(Terms, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      document.title = "Contact";
-      $(window).scrollTop(0);
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(_Banner2.default, null),
-        _react2.default.createElement(
-          'main',
-          null,
-          _react2.default.createElement(_Content2.default, null)
-        )
-      );
-    }
-  }]);
-
-  return Terms;
-}(_react.Component);
-
-exports.default = Terms;
-
-/***/ }),
-/* 101 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Banner = function (_Component) {
-  _inherits(Banner, _Component);
-
-  function Banner() {
-    _classCallCheck(this, Banner);
-
-    return _possibleConstructorReturn(this, (Banner.__proto__ || Object.getPrototypeOf(Banner)).apply(this, arguments));
-  }
-
-  _createClass(Banner, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'section',
-        { className: 'banner', style: { height: '290px' } },
-        _react2.default.createElement(
-          'div',
-          { className: 'container' },
-          _react2.default.createElement(
-            'div',
-            { className: 'banner-content' },
-            _react2.default.createElement(
-              'h1',
-              null,
-              'Contact'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'shield' },
-            _react2.default.createElement('img', { src: '/images/shield.png', alt: '' })
-          )
-        )
-      );
-    }
-  }]);
-
-  return Banner;
-}(_react.Component);
-
-exports.default = Banner;
-
-/***/ }),
-/* 102 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Content = function (_Component) {
-  _inherits(Content, _Component);
-
-  function Content() {
-    _classCallCheck(this, Content);
-
-    return _possibleConstructorReturn(this, (Content.__proto__ || Object.getPrototypeOf(Content)).apply(this, arguments));
-  }
-
-  _createClass(Content, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "section",
-        { className: "content-part" },
-        _react2.default.createElement(
-          "div",
-          { className: "container" },
-          _react2.default.createElement(
-            "div",
-            { className: "col-sm-9 padd-r-15" },
-            _react2.default.createElement(
-              "div",
-              { className: "side-bar" },
-              _react2.default.createElement(
-                "div",
-                { className: "row" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "side-bar-clm" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "inner-content" },
-                    _react2.default.createElement(
-                      "h3",
-                      null,
-                      "Contact"
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
-                    )
-                  )
-                )
-              )
-            )
-          ),
-          _react2.default.createElement(
-            "div",
-            { className: "col-sm-3 padd-r-15" },
-            _react2.default.createElement(
-              "div",
-              { className: "side-bar" },
-              _react2.default.createElement(
-                "div",
-                { className: "row" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "side-bar-clm" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "inner-content" },
-                    _react2.default.createElement(
-                      "h3",
-                      null,
-                      " ",
-                      _react2.default.createElement(
-                        "i",
-                        null,
-                        _react2.default.createElement("img", { src: "/images/arrow.png", alt: "" })
-                      ),
-                      "Comparison Table"
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "button",
-                    { type: "button", className: "btn choose-btn" },
-                    "Compare Antivirus"
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "row" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "side-bar-clm" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "inner-content" },
-                    _react2.default.createElement(
-                      "h3",
-                      null,
-                      " ",
-                      _react2.default.createElement(
-                        "i",
-                        null,
-                        _react2.default.createElement("img", { src: "/images/shield-icon.png", alt: "" })
-                      ),
-                      "Select a Provider"
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "button",
-                    { type: "button", className: "btn choose-btn" },
-                    "Choose an Antivirus"
-                  )
-                )
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return Content;
-}(_react.Component);
-
-exports.default = Content;
 
 /***/ })
 /******/ ]);
