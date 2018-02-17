@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Header/Header.jsx';
 import Home from './Home/Home.jsx';
 import Review from './Review/Review.jsx';
+import PrivacyPolicy from './PrivacyPolicy/PrivacyPolicy.jsx';
 import Footer from './Footer/Footer.jsx';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
           <Header />
             <Route exact path="/" component={Home}/>
             <Route exact path="/review" component={Review}/>
+            <Route exact path="/privacy-policy" component={PrivacyPolicy}/>
           <Footer />
         </div>
       </BrowserRouter>

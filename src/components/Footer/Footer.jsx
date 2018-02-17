@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Footer extends Component {
   render() {
@@ -37,7 +38,7 @@ class Footer extends Component {
                       	<li><a href="#">About</a></li>
                           <li><a href="#">Contact</a></li>
                           <li><a href="#">Disclaimer</a></li>
-                          <li><a href="#">Privacy Policy</a></li>
+                          <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                           <li><a href="#">Terms & Conditions</a></li>
                       </ul>
 
