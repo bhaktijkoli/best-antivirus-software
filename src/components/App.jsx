@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Header from './Header/Header.jsx';
-import Banner from './Banner/Banner.jsx';
-import Main from './Main/Main.jsx';
+import Home from './Home/Home.jsx';
 import Footer from './Footer/Footer.jsx';
 
 class App extends Component {
@@ -12,10 +11,7 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Header />
-          <Banner />
-          <main>
-            <Route exact path="/" component={Main}/>
-          </main>
+            <Route exact path="/" component={Home}/>
           <Footer />
         </div>
       </BrowserRouter>

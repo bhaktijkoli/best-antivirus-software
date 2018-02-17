@@ -7737,13 +7737,9 @@ var _Header = __webpack_require__(28);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _Banner = __webpack_require__(29);
+var _Home = __webpack_require__(84);
 
-var _Banner2 = _interopRequireDefault(_Banner);
-
-var _Main = __webpack_require__(30);
-
-var _Main2 = _interopRequireDefault(_Main);
+var _Home2 = _interopRequireDefault(_Home);
 
 var _Footer = __webpack_require__(31);
 
@@ -7776,12 +7772,7 @@ var App = function (_Component) {
           'div',
           null,
           _react2.default.createElement(_Header2.default, null),
-          _react2.default.createElement(_Banner2.default, null),
-          _react2.default.createElement(
-            'main',
-            null,
-            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Main2.default })
-          ),
+          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
           _react2.default.createElement(_Footer2.default, null)
         )
       );
@@ -7946,1813 +7937,8 @@ var Header = function (_Component) {
 exports.default = Header;
 
 /***/ }),
-/* 29 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(1);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Banner = function (_Component) {
-  _inherits(Banner, _Component);
-
-  function Banner() {
-    _classCallCheck(this, Banner);
-
-    return _possibleConstructorReturn(this, (Banner.__proto__ || Object.getPrototypeOf(Banner)).apply(this, arguments));
-  }
-
-  _createClass(Banner, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "section",
-        { className: "banner" },
-        _react2.default.createElement(
-          "div",
-          { className: "container" },
-          _react2.default.createElement(
-            "div",
-            { className: "banner-content" },
-            _react2.default.createElement(
-              "h1",
-              null,
-              "TOP 10 BEST ANTIVIRUS PROGRAMS OF 2018 "
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "full-width name-nd-date" },
-              _react2.default.createElement(
-                "span",
-                { className: "name" },
-                "DAVID PETERSON"
-              ),
-              _react2.default.createElement(
-                "span",
-                { className: "date" },
-                "February 10, 2018"
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "social-icons" },
-              _react2.default.createElement(
-                "div",
-                { className: "share-heading" },
-                _react2.default.createElement(
-                  "span",
-                  null,
-                  "Share:"
-                ),
-                _react2.default.createElement(
-                  "span",
-                  null,
-                  "57"
-                )
-              ),
-              _react2.default.createElement(
-                "a",
-                { href: "#", className: "fb" },
-                _react2.default.createElement("i", { className: "fa fa-facebook" }),
-                " 27"
-              ),
-              _react2.default.createElement(
-                "a",
-                { href: "#", className: "twt" },
-                _react2.default.createElement("i", { className: "fa fa-twitter" }),
-                " 13"
-              ),
-              _react2.default.createElement(
-                "a",
-                { href: "#", className: "g-plus" },
-                _react2.default.createElement("i", { className: "fa fa-google-plus" }),
-                " 9"
-              ),
-              _react2.default.createElement(
-                "a",
-                { href: "#", className: "pint" },
-                _react2.default.createElement("i", { className: "fa fa-pinterest" }),
-                " 4"
-              ),
-              _react2.default.createElement(
-                "a",
-                { href: "#", className: "linkdin" },
-                _react2.default.createElement("i", { className: "fa fa-linkedin" }),
-                " 2"
-              ),
-              _react2.default.createElement(
-                "a",
-                { href: "#", className: "last-one" },
-                _react2.default.createElement("i", { className: "fa fa-stumbleupon" }),
-                " 2"
-              )
-            ),
-            _react2.default.createElement(
-              "p",
-              null,
-              "It is a challenging task to find the best antivirus when there are so many to choose from with different features! Here at Best AntiVirus our top priority is to make sure we help consumers get past the smoke screen and give you the resources to find the best antivirus on the market. The best way to find the best antivirus for you is by doing a comparison. On our website we allow you to compare all the top anti-viruses, giving you the informed decision to buy the best antivirus. "
-            )
-          ),
-          _react2.default.createElement(
-            "div",
-            { className: "shield" },
-            _react2.default.createElement("img", { src: "/images/shield.png", alt: "" })
-          )
-        )
-      );
-    }
-  }]);
-
-  return Banner;
-}(_react.Component);
-
-exports.default = Banner;
-
-/***/ }),
-/* 30 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(1);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Main = function (_Component) {
-  _inherits(Main, _Component);
-
-  function Main() {
-    _classCallCheck(this, Main);
-
-    return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).apply(this, arguments));
-  }
-
-  _createClass(Main, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "section",
-        { className: "content-part" },
-        _react2.default.createElement(
-          "div",
-          { className: "container" },
-          _react2.default.createElement(
-            "div",
-            { className: "col-md-9 col-sm-12 col-xs-12 padd-r-15" },
-            _react2.default.createElement(
-              "div",
-              { className: "row" },
-              _react2.default.createElement(
-                "form",
-                { className: "search-form" },
-                _react2.default.createElement(
-                  "h3",
-                  null,
-                  "Find The One Right For You"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "form-group" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3 col-xs-12 padd-l-0" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                          "label",
-                          null,
-                          "DISPLAY"
-                        )
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                          "div",
-                          { className: "select-field" },
-                          _react2.default.createElement(
-                            "select",
-                            { className: "selectpicker form-control" },
-                            _react2.default.createElement(
-                              "option",
-                              null,
-                              "All"
-                            ),
-                            _react2.default.createElement(
-                              "option",
-                              null,
-                              "All"
-                            ),
-                            _react2.default.createElement(
-                              "option",
-                              null,
-                              "All"
-                            )
-                          )
-                        )
-                      )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3 col-xs-12 padd-r-0" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                          "label",
-                          null,
-                          "PRICE"
-                        )
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                          "div",
-                          { className: "select-field" },
-                          _react2.default.createElement(
-                            "select",
-                            { className: "selectpicker form-control" },
-                            _react2.default.createElement(
-                              "option",
-                              null,
-                              "Any"
-                            ),
-                            _react2.default.createElement(
-                              "option",
-                              null,
-                              "Any"
-                            ),
-                            _react2.default.createElement(
-                              "option",
-                              null,
-                              "Any"
-                            ),
-                            _react2.default.createElement(
-                              "option",
-                              null,
-                              "Any"
-                            )
-                          )
-                        )
-                      )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3 col-xs-12 padd-r-0" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                          "label",
-                          null,
-                          "PURPOSE"
-                        )
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                          "div",
-                          { className: "select-field" },
-                          _react2.default.createElement(
-                            "select",
-                            { className: "selectpicker form-control" },
-                            _react2.default.createElement(
-                              "option",
-                              null,
-                              "All"
-                            ),
-                            _react2.default.createElement(
-                              "option",
-                              null,
-                              "All"
-                            ),
-                            _react2.default.createElement(
-                              "option",
-                              null,
-                              "All"
-                            )
-                          )
-                        )
-                      )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3 col-xs-12 padd-r-0" },
-                    _react2.default.createElement(
-                      "button",
-                      { type: "button", className: "btn search-btn" },
-                      _react2.default.createElement("i", { className: "icon ion-ios-search" }),
-                      " ",
-                      _react2.default.createElement(
-                        "span",
-                        null,
-                        "SEARCH"
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "software-clm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "number" },
-                  "1"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-5 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3" },
-                    _react2.default.createElement(
-                      "i",
-                      { className: "green-arrow" },
-                      _react2.default.createElement("img", { src: "/images/green-arrow.png", alt: "" })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-9 right-border logo-clm" },
-                    _react2.default.createElement("img", { src: "/images/anti-virus-logo.png", alt: "" }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "rating-icons" },
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" })
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "checkbox" },
-                      _react2.default.createElement("input", { id: "checkbox1", type: "checkbox" }),
-                      _react2.default.createElement(
-                        "label",
-                        { htmlFor: "checkbox1" },
-                        "COMPARE"
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-7 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "row" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Voted Best Antivirus 2018. Removes all Viruses, Malware, Spyware, & Adware. "
-                      ),
-                      _react2.default.createElement(
-                        "a",
-                        { href: "#" },
-                        "READ REVIEW"
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "software-price" },
-                        _react2.default.createElement(
-                          "span",
-                          { className: "price" },
-                          "$19.95"
-                        ),
-                        _react2.default.createElement(
-                          "span",
-                          { className: "percentage" },
-                          "96%"
-                        )
-                      ),
-                      _react2.default.createElement(
-                        "button",
-                        { type: "button", className: "btn visit-btn" },
-                        "VISIT WEBSITE"
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "software-clm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "number" },
-                  "2"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-5 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3" },
-                    _react2.default.createElement(
-                      "i",
-                      { className: "green-arrow" },
-                      _react2.default.createElement("img", { src: "/images/arrow-sign.png", alt: "" })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-9 right-border logo-clm" },
-                    _react2.default.createElement("img", { src: "/images/scan-gaurd.png", alt: "" }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "rating-icons" },
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" })
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "checkbox" },
-                      _react2.default.createElement("input", { id: "checkbox2", type: "checkbox" }),
-                      _react2.default.createElement(
-                        "label",
-                        { htmlFor: "checkbox2" },
-                        "COMPARE"
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-7 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "row" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Protects Againest All Malware, Viruses & Adware. Includes PC Cleaner & Optimizer "
-                      ),
-                      _react2.default.createElement(
-                        "a",
-                        { href: "#" },
-                        "READ REVIEW"
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "software-price" },
-                        _react2.default.createElement(
-                          "span",
-                          { className: "price" },
-                          "$24.95"
-                        ),
-                        _react2.default.createElement(
-                          "span",
-                          { className: "percentage" },
-                          "92%"
-                        )
-                      ),
-                      _react2.default.createElement(
-                        "button",
-                        { type: "button", className: "btn visit-btn" },
-                        "VISIT WEBSITE"
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "software-clm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "number" },
-                  "3"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-5 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3" },
-                    _react2.default.createElement(
-                      "i",
-                      { className: "green-arrow" },
-                      _react2.default.createElement("img", { src: "/images/green-arrow.png", alt: "" })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-9 right-border logo-clm" },
-                    _react2.default.createElement("img", { src: "/images/malware-pro.png", alt: "" }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "rating-icons" },
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star-half" })
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "checkbox" },
-                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
-                      _react2.default.createElement(
-                        "label",
-                        { htmlFor: "checkbox3" },
-                        "COMPARE"
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-7 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "row" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Fantastic value for money! Very slick setup and easy to use. "
-                      ),
-                      _react2.default.createElement(
-                        "a",
-                        { href: "#" },
-                        "READ REVIEW"
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "software-price" },
-                        _react2.default.createElement(
-                          "span",
-                          { className: "price" },
-                          "$24.95"
-                        ),
-                        _react2.default.createElement(
-                          "span",
-                          { className: "percentage" },
-                          "90%"
-                        )
-                      ),
-                      _react2.default.createElement(
-                        "button",
-                        { type: "button", className: "btn visit-btn" },
-                        "VISIT WEBSITE"
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "software-clm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "number" },
-                  "4"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-5 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3" },
-                    _react2.default.createElement(
-                      "i",
-                      { className: "green-arrow" },
-                      _react2.default.createElement("img", { src: "/images/orange-arrow.png", alt: "" })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-9 right-border logo-clm" },
-                    _react2.default.createElement("img", { src: "/images/mac-afee.png", alt: "" }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "rating-icons" },
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "checkbox" },
-                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
-                      _react2.default.createElement(
-                        "label",
-                        { htmlFor: "checkbox3" },
-                        "COMPARE"
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-7 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "row" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Mcafee is a good quality Antivirus software, slightly expensive."
-                      ),
-                      _react2.default.createElement(
-                        "a",
-                        { href: "#" },
-                        "READ REVIEW"
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "software-price" },
-                        _react2.default.createElement(
-                          "span",
-                          { className: "price" },
-                          "$79.99"
-                        ),
-                        _react2.default.createElement(
-                          "span",
-                          { className: "percentage" },
-                          "88%"
-                        )
-                      ),
-                      _react2.default.createElement(
-                        "button",
-                        { type: "button", className: "btn visit-btn" },
-                        "VISIT WEBSITE"
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "software-clm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "number" },
-                  "5"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-5 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3" },
-                    _react2.default.createElement(
-                      "i",
-                      { className: "green-arrow" },
-                      _react2.default.createElement("img", { src: "/images/orange-arrow.png", alt: "" })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-9 right-border logo-clm" },
-                    _react2.default.createElement("img", { src: "/images/norton.png", alt: "" }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "rating-icons" },
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "checkbox" },
-                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
-                      _react2.default.createElement(
-                        "label",
-                        { htmlFor: "checkbox3" },
-                        "COMPARE"
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-7 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "row" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Plenty of features to choose from, Norton are a trusted brand. Can be slow."
-                      ),
-                      _react2.default.createElement(
-                        "a",
-                        { href: "#" },
-                        "READ REVIEW"
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "software-price" },
-                        _react2.default.createElement(
-                          "span",
-                          { className: "price" },
-                          "$39.99"
-                        ),
-                        _react2.default.createElement(
-                          "span",
-                          { className: "percentage" },
-                          "87%"
-                        )
-                      ),
-                      _react2.default.createElement(
-                        "button",
-                        { type: "button", className: "btn visit-btn" },
-                        "VISIT WEBSITE"
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "software-clm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "number" },
-                  "6"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-5 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3" },
-                    _react2.default.createElement(
-                      "i",
-                      { className: "green-arrow" },
-                      _react2.default.createElement("img", { src: "/images/arrow-sign.png", alt: "" })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-9 right-border logo-clm" },
-                    _react2.default.createElement("img", { src: "/images/bull-guard.png", alt: "" }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "rating-icons" },
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star-half" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "checkbox" },
-                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
-                      _react2.default.createElement(
-                        "label",
-                        { htmlFor: "checkbox3" },
-                        "COMPARE"
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-7 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "row" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Good engine, Quite expensive considering the amount of features."
-                      ),
-                      _react2.default.createElement(
-                        "a",
-                        { href: "#" },
-                        "READ REVIEW"
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "software-price" },
-                        _react2.default.createElement(
-                          "span",
-                          { className: "price" },
-                          "$27.98"
-                        ),
-                        _react2.default.createElement(
-                          "span",
-                          { className: "percentage" },
-                          "84%"
-                        )
-                      ),
-                      _react2.default.createElement(
-                        "button",
-                        { type: "button", className: "btn visit-btn" },
-                        "VISIT WEBSITE"
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "software-clm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "number" },
-                  "7"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-5 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3" },
-                    _react2.default.createElement(
-                      "i",
-                      { className: "green-arrow" },
-                      _react2.default.createElement("img", { src: "/images/arrow-sign.png", alt: "" })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-9 right-border logo-clm" },
-                    _react2.default.createElement("img", { src: "/images/sky-remover.png", alt: "" }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "rating-icons" },
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star-half" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "checkbox" },
-                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
-                      _react2.default.createElement(
-                        "label",
-                        { htmlFor: "checkbox3" },
-                        "COMPARE"
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-7 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "row" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Spy Remover Pro is one of the industry leaders in Adwar"
-                      ),
-                      _react2.default.createElement(
-                        "a",
-                        { href: "#" },
-                        "READ REVIEW"
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "software-price" },
-                        _react2.default.createElement(
-                          "span",
-                          { className: "price" },
-                          "$39.99"
-                        ),
-                        _react2.default.createElement(
-                          "span",
-                          { className: "percentage" },
-                          "83%"
-                        )
-                      ),
-                      _react2.default.createElement(
-                        "button",
-                        { type: "button", className: "btn visit-btn" },
-                        "VISIT WEBSITE"
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "software-clm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "number" },
-                  "8"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-5 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3" },
-                    _react2.default.createElement(
-                      "i",
-                      { className: "green-arrow" },
-                      _react2.default.createElement("img", { src: "/images/green-arrow.png", alt: "" })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-9 right-border logo-clm" },
-                    _react2.default.createElement("img", { src: "/images/pondo-antivirus.png", alt: "" }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "rating-icons" },
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star-half" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "checkbox" },
-                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
-                      _react2.default.createElement(
-                        "label",
-                        { htmlFor: "checkbox3" },
-                        "COMPARE"
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-7 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "row" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Panda Anti-Virus Pro is a reputable award winning cyber security company"
-                      ),
-                      _react2.default.createElement(
-                        "a",
-                        { href: "#" },
-                        "READ REVIEW"
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "software-price" },
-                        _react2.default.createElement(
-                          "span",
-                          { className: "price" },
-                          "$59.95"
-                        ),
-                        _react2.default.createElement(
-                          "span",
-                          { className: "percentage" },
-                          "82%"
-                        )
-                      ),
-                      _react2.default.createElement(
-                        "button",
-                        { type: "button", className: "btn visit-btn" },
-                        "VISIT WEBSITE"
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "software-clm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "number" },
-                  "9"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-5 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3" },
-                    _react2.default.createElement(
-                      "i",
-                      { className: "green-arrow" },
-                      _react2.default.createElement("img", { src: "/images/orange-arrow.png", alt: "" })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-9 right-border logo-clm" },
-                    _react2.default.createElement("img", { src: "/images/avira.png", alt: "" }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "rating-icons" },
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "checkbox" },
-                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
-                      _react2.default.createElement(
-                        "label",
-                        { htmlFor: "checkbox3" },
-                        "COMPARE"
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-7 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "row" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "At the time of writing this article, Avira has 564 Million installs Worldwide!"
-                      ),
-                      _react2.default.createElement(
-                        "a",
-                        { href: "#" },
-                        "READ REVIEW"
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "software-price" },
-                        _react2.default.createElement(
-                          "span",
-                          { className: "price" },
-                          "$37.59"
-                        ),
-                        _react2.default.createElement(
-                          "span",
-                          { className: "percentage" },
-                          "78%"
-                        )
-                      ),
-                      _react2.default.createElement(
-                        "button",
-                        { type: "button", className: "btn visit-btn" },
-                        "VISIT WEBSITE"
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "software-clm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "number" },
-                  "10"
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-5 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-3" },
-                    _react2.default.createElement(
-                      "i",
-                      { className: "green-arrow" },
-                      _react2.default.createElement("img", { src: "/images/green-arrow.png", alt: "" })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "col-sm-9 right-border logo-clm" },
-                    _react2.default.createElement("img", { src: "/images/trend.png", alt: "" }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "rating-icons" },
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" }),
-                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "checkbox" },
-                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
-                      _react2.default.createElement(
-                        "label",
-                        { htmlFor: "checkbox3" },
-                        "COMPARE"
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-sm-7 col-xs-12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "row" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Middle of the road antivirus, not overly expensive but not feature packed."
-                      ),
-                      _react2.default.createElement(
-                        "a",
-                        { href: "#" },
-                        "READ REVIEW"
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5 col-xs-12 description" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "software-price" },
-                        _react2.default.createElement(
-                          "span",
-                          { className: "price" },
-                          "$41.97"
-                        ),
-                        _react2.default.createElement(
-                          "span",
-                          { className: "percentage" },
-                          "78%"
-                        )
-                      ),
-                      _react2.default.createElement(
-                        "button",
-                        { type: "button", className: "btn visit-btn" },
-                        "VISIT WEBSITE"
-                      )
-                    )
-                  )
-                )
-              )
-            )
-          ),
-          _react2.default.createElement(
-            "div",
-            { className: "col-md-3 col-sm-12 col-xs-12" },
-            _react2.default.createElement(
-              "div",
-              { className: "row" },
-              _react2.default.createElement(
-                "div",
-                { className: "side-bar" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "side-bar-clm" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "inner-content" },
-                    _react2.default.createElement(
-                      "h3",
-                      null,
-                      " ",
-                      _react2.default.createElement(
-                        "i",
-                        null,
-                        _react2.default.createElement("img", { src: "/images/new-post.png", alt: "" })
-                      ),
-                      "About Author"
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-5" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                          "div",
-                          { className: "profile-img" },
-                          _react2.default.createElement("img", { src: "/images/profile-img.png", alt: "" })
-                        )
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "col-sm-7" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                          "div",
-                          { className: "profile-name" },
-                          _react2.default.createElement(
-                            "h4",
-                            null,
-                            "DAVID PETERSON"
-                          ),
-                          _react2.default.createElement(
-                            "span",
-                            null,
-                            "Sed dia nonummy"
-                          )
-                        )
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "Lorem ipsum dolor consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. "
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "side-bar-clm" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "inner-content" },
-                    _react2.default.createElement(
-                      "h3",
-                      null,
-                      " ",
-                      _react2.default.createElement(
-                        "i",
-                        null,
-                        _react2.default.createElement("img", { src: "/images/shield-icon.png", alt: "" })
-                      ),
-                      "Select a Provider"
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "button",
-                    { type: "button", className: "btn choose-btn" },
-                    "Choose an Antivirus"
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "side-bar-clm" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "inner-content" },
-                    _react2.default.createElement(
-                      "h3",
-                      null,
-                      " ",
-                      _react2.default.createElement(
-                        "i",
-                        null,
-                        _react2.default.createElement("img", { src: "/images/sound.png", alt: "" })
-                      ),
-                      "Advertising Disclosure "
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "side-bar-clm" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "inner-content" },
-                    _react2.default.createElement(
-                      "h3",
-                      null,
-                      " ",
-                      _react2.default.createElement(
-                        "i",
-                        null,
-                        _react2.default.createElement("img", { src: "/images/arrow.png", alt: "" })
-                      ),
-                      "Comparison Table"
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "button",
-                    { type: "button", className: "btn choose-btn" },
-                    "Compare Antivirus"
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "side-bar-clm dark-bg" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "inner-content" },
-                    _react2.default.createElement(
-                      "h3",
-                      null,
-                      " ",
-                      _react2.default.createElement(
-                        "i",
-                        null,
-                        _react2.default.createElement("img", { src: "/images/anti-virus.png", alt: "" })
-                      ),
-                      "The Top 10 AntiVirus"
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "Sed diam nonummy nib euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wi enim ad minim veniam, quis nos exerci tation ullamcorper suscip lobortis nisl ut aliquip ex consequat. "
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "side-bar-clm" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "inner-content" },
-                    _react2.default.createElement(
-                      "h3",
-                      null,
-                      " Sign Up To Newsletter"
-                    ),
-                    _react2.default.createElement(
-                      "form",
-                      { className: "newsletter-form" },
-                      _react2.default.createElement("input", { type: "email", name: "", value: "", placeholder: "Enter yoaur email", className: "form-control" }),
-                      _react2.default.createElement("input", { type: "submit", value: "SIGN UP" })
-                    )
-                  )
-                )
-              )
-            )
-          )
-        ),
-        _react2.default.createElement(
-          "section",
-          { className: "must-read" },
-          _react2.default.createElement(
-            "div",
-            { className: "container" },
-            _react2.default.createElement(
-              "div",
-              { className: "title" },
-              _react2.default.createElement(
-                "h2",
-                null,
-                "Must Reads"
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "col-sm-3 col-xs-12 padd-l-0" },
-              _react2.default.createElement(
-                "div",
-                { className: "img-clm" },
-                _react2.default.createElement("img", { src: "/images/1.jpg", alt: "" }),
-                _react2.default.createElement(
-                  "div",
-                  { className: "content-img" },
-                  _react2.default.createElement(
-                    "span",
-                    null,
-                    "Best Antivirus Software"
-                  ),
-                  _react2.default.createElement(
-                    "h3",
-                    null,
-                    "Ut wi enim ad mini veniam, quis nos exerci tation."
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "description-img" },
-                _react2.default.createElement(
-                  "p",
-                  null,
-                  "Lorem ipsum dolor  consect adipiscing elit, sed dia nonummy nib tincidunt ut laoreet dolore magna volutpat."
-                )
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "col-sm-3 col-xs-12" },
-              _react2.default.createElement(
-                "div",
-                { className: "img-clm" },
-                _react2.default.createElement("img", { src: "/images/2.jpg", alt: "" }),
-                _react2.default.createElement(
-                  "div",
-                  { className: "content-img" },
-                  _react2.default.createElement(
-                    "span",
-                    null,
-                    "Best Antivirus Software"
-                  ),
-                  _react2.default.createElement(
-                    "h3",
-                    null,
-                    "Ut wi enim ad mini veniam, quis nos exerci tation."
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "description-img" },
-                _react2.default.createElement(
-                  "p",
-                  null,
-                  "Lorem ipsum dolor  consect adipiscing elit, sed dia nonummy nib tincidunt ut laoreet dolore magna volutpat."
-                )
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "col-sm-3 col-xs-12" },
-              _react2.default.createElement(
-                "div",
-                { className: "img-clm" },
-                _react2.default.createElement("img", { src: "/images/3.jpg", alt: "" }),
-                _react2.default.createElement(
-                  "div",
-                  { className: "content-img" },
-                  _react2.default.createElement(
-                    "span",
-                    null,
-                    "Best Antivirus Software"
-                  ),
-                  _react2.default.createElement(
-                    "h3",
-                    null,
-                    "Ut wi enim ad mini veniam, quis nos exerci tation."
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "description-img" },
-                _react2.default.createElement(
-                  "p",
-                  null,
-                  "Lorem ipsum dolor  consect adipiscing elit, sed dia nonummy nib tincidunt ut laoreet dolore magna volutpat."
-                )
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "col-sm-3 col-xs-12 padd-r-0" },
-              _react2.default.createElement(
-                "div",
-                { className: "img-clm" },
-                _react2.default.createElement("img", { src: "/images/4.jpg", alt: "" }),
-                _react2.default.createElement(
-                  "div",
-                  { className: "content-img" },
-                  _react2.default.createElement(
-                    "span",
-                    null,
-                    "Best Antivirus Software"
-                  ),
-                  _react2.default.createElement(
-                    "h3",
-                    null,
-                    "Ut wi enim ad mini veniam, quis nos exerci tation."
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "description-img" },
-                _react2.default.createElement(
-                  "p",
-                  null,
-                  "Lorem ipsum dolor  consect adipiscing elit, sed dia nonummy nib tincidunt ut laoreet dolore magna volutpat."
-                )
-              )
-            )
-          )
-        ),
-        _react2.default.createElement(
-          "section",
-          { className: "choose-section" },
-          _react2.default.createElement(
-            "div",
-            { className: "container" },
-            _react2.default.createElement(
-              "div",
-              { className: "title" },
-              _react2.default.createElement(
-                "h2",
-                null,
-                "How to Choose the Best Antivirus Software"
-              )
-            ),
-            _react2.default.createElement(
-              "p",
-              null,
-              "There are many things to consider when choosing your antivirus provider. We have compiled a number of fact filled articles detailed around the antivirus to help you make the right decision. Stay up to date with all the latest Antivirus news."
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "panel-group accordian software-accourdian", id: "accordion2" },
-              _react2.default.createElement(
-                "div",
-                { className: "panel panel-default" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "panel-heading" },
-                  _react2.default.createElement(
-                    "h4",
-                    { className: "panel-title" },
-                    _react2.default.createElement(
-                      "a",
-                      { className: "accordion-toggle", "data-toggle": "collapse", "data-parent": "#accordion2", href: "#collapse11" },
-                      "Best Antivirus 2017 Revealed ",
-                      _react2.default.createElement("i", { className: "fa fa-plus", style: { float: 'right' } })
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "panel-collapse collapse", id: "collapse11" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "panel-body" },
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "We have spent countless hours testing and reviewing the vast number of antivirus companies across the web. TotalAV is our top choice, with Scanguard coming at a close second. It\u2019s a brand new security suite that hit the market in 2017 and has impressed us in all aspects including their design and detection rate. "
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "TotalAV\u2019s scans were quick and thorough, we tested 30+ Antiviruses and it had the highest detection rate out of ALL these companies. We can say with confidence that Total AV has the performance that matches and beats the leading names in the antivirus business."
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "TotalAV has a quality support section on their website. They offer live chat with average connection time of under a minute. We tested some companies that didn\u2019t even offer a live chat service! Their FAQ and knowledge sections are also great if you have a simple question that does not require contacting their live support. "
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "TotalAV offers only one plan to choose from, which makes it pretty easy to make a decision. TotalAV also offers you to tailor the software to your needs, if you want a simple antivirus with no additional features, you can do that! They have listened to the consumers and don\u2019t include gimmicky add-ons, but you can add them if you feel like you need them!"
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "In conclusion, TotalAV may be new to the market but it has matched and beaten competitors in every way possible. This is great news because when they first launched, they were the underdogs of the business, but now they are on top!"
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "panel panel-default" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "panel-heading" },
-                  _react2.default.createElement(
-                    "h4",
-                    { className: "panel-title" },
-                    _react2.default.createElement(
-                      "a",
-                      { className: "accordion-toggle", "data-toggle": "collapse", "data-parent": "#accordion2", href: "#collapse12" },
-                      "Choosing The Best Antivirus Software ",
-                      _react2.default.createElement("i", { className: "fa fa-plus", style: { float: 'right' } })
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "panel-collapse collapse", id: "collapse12" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "panel-body" },
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "We have spent countless hours testing and reviewing the vast number of antivirus companies across the web. TotalAV is our top choice, with Scanguard coming at a close second. It\u2019s a brand new security suite that hit the market in 2017 and has impressed us in all aspects including their design and detection rate. "
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "TotalAV\u2019s scans were quick and thorough, we tested 30+ Antiviruses and it had the highest detection rate out of ALL these companies. We can say with confidence that Total AV has the performance that matches and beats the leading names in the antivirus business."
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "TotalAV has a quality support section on their website. They offer live chat with average connection time of under a minute. We tested some companies that didn\u2019t even offer a live chat service! Their FAQ and knowledge sections are also great if you have a simple question that does not require contacting their live support. "
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "TotalAV offers only one plan to choose from, which makes it pretty easy to make a decision. TotalAV also offers you to tailor the software to your needs, if you want a simple antivirus with no additional features, you can do that! They have listened to the consumers and don\u2019t include gimmicky add-ons, but you can add them if you feel like you need them!"
-                    ),
-                    _react2.default.createElement(
-                      "p",
-                      null,
-                      "In conclusion, TotalAV may be new to the market but it has matched and beaten competitors in every way possible. This is great news because when they first launched, they were the underdogs of the business, but now they are on top!"
-                    )
-                  )
-                )
-              )
-            )
-          )
-        )
-      );
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-
-      $('.collapse').on('shown.bs.collapse', function () {
-        $(this).parent().find(".fa-plus").removeClass("fa-plus").addClass("fa-minus");
-      }).on('hidden.bs.collapse', function () {
-        $(this).parent().find(".fa-minus").removeClass("fa-minus").addClass("fa-plus");
-      });
-
-      $('.selectpicker').selectpicker();
-      $('.rm-mustard').click(function () {
-        $('.remove-example').find('[value=Mustard]').remove();
-        $('.remove-example').selectpicker('refresh');
-      });
-      $('.rm-ketchup').click(function () {
-        $('.remove-example').find('[value=Ketchup]').remove();
-        $('.remove-example').selectpicker('refresh');
-      });
-      $('.rm-relish').click(function () {
-        $('.remove-example').find('[value=Relish]').remove();
-        $('.remove-example').selectpicker('refresh');
-      });
-      $('.ex-disable').click(function () {
-        $('.disable-example').prop('disabled', true);
-        $('.disable-example').selectpicker('refresh');
-      });
-      $('.ex-enable').click(function () {
-        $('.disable-example').prop('disabled', false);
-        $('.disable-example').selectpicker('refresh');
-      });
-
-      $(".panel-heading").click(function () {
-        $(".accordion-toggle").addClass('open');
-      });
-      if ($('.toggletag').hasClass('open')) {
-        $("html").click(function () {
-          $(".toggletag").removeClass('open');
-        });
-      }
-
-      jQuery(".accordion-toggle").click(function () {
-
-        if (jQuery(this).hasClass("active")) {
-          jQuery(this).removeClass("active");
-        } else {
-          jQuery(this).addClass("active");
-        }
-      });
-    }
-  }]);
-
-  return Main;
-}(_react.Component);
-
-exports.default = Main;
-
-/***/ }),
+/* 29 */,
+/* 30 */,
 /* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27075,6 +25261,1878 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         return targetComponent;
     };
 });
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(55);
+
+var _Banner = __webpack_require__(85);
+
+var _Banner2 = _interopRequireDefault(_Banner);
+
+var _Content = __webpack_require__(86);
+
+var _Content2 = _interopRequireDefault(_Content);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Home = function (_Component) {
+  _inherits(Home, _Component);
+
+  function Home() {
+    _classCallCheck(this, Home);
+
+    return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
+  }
+
+  _createClass(Home, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_Banner2.default, null),
+        _react2.default.createElement(
+          'main',
+          null,
+          _react2.default.createElement(_Content2.default, null)
+        )
+      );
+    }
+  }]);
+
+  return Home;
+}(_react.Component);
+
+exports.default = Home;
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Banner = function (_Component) {
+  _inherits(Banner, _Component);
+
+  function Banner() {
+    _classCallCheck(this, Banner);
+
+    return _possibleConstructorReturn(this, (Banner.__proto__ || Object.getPrototypeOf(Banner)).apply(this, arguments));
+  }
+
+  _createClass(Banner, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "section",
+        { className: "banner" },
+        _react2.default.createElement(
+          "div",
+          { className: "container" },
+          _react2.default.createElement(
+            "div",
+            { className: "banner-content" },
+            _react2.default.createElement(
+              "h1",
+              null,
+              "TOP 10 BEST ANTIVIRUS PROGRAMS OF 2018 "
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "full-width name-nd-date" },
+              _react2.default.createElement(
+                "span",
+                { className: "name" },
+                "DAVID PETERSON"
+              ),
+              _react2.default.createElement(
+                "span",
+                { className: "date" },
+                "February 10, 2018"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "social-icons" },
+              _react2.default.createElement(
+                "div",
+                { className: "share-heading" },
+                _react2.default.createElement(
+                  "span",
+                  null,
+                  "Share:"
+                ),
+                _react2.default.createElement(
+                  "span",
+                  null,
+                  "57"
+                )
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#", className: "fb" },
+                _react2.default.createElement("i", { className: "fa fa-facebook" }),
+                " 27"
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#", className: "twt" },
+                _react2.default.createElement("i", { className: "fa fa-twitter" }),
+                " 13"
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#", className: "g-plus" },
+                _react2.default.createElement("i", { className: "fa fa-google-plus" }),
+                " 9"
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#", className: "pint" },
+                _react2.default.createElement("i", { className: "fa fa-pinterest" }),
+                " 4"
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#", className: "linkdin" },
+                _react2.default.createElement("i", { className: "fa fa-linkedin" }),
+                " 2"
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#", className: "last-one" },
+                _react2.default.createElement("i", { className: "fa fa-stumbleupon" }),
+                " 2"
+              )
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "It is a challenging task to find the best antivirus when there are so many to choose from with different features! Here at Best AntiVirus our top priority is to make sure we help consumers get past the smoke screen and give you the resources to find the best antivirus on the market. The best way to find the best antivirus for you is by doing a comparison. On our website we allow you to compare all the top anti-viruses, giving you the informed decision to buy the best antivirus. "
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "shield" },
+            _react2.default.createElement("img", { src: "/images/shield.png", alt: "" })
+          )
+        )
+      );
+    }
+  }]);
+
+  return Banner;
+}(_react.Component);
+
+exports.default = Banner;
+
+/***/ }),
+/* 86 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Content = function (_Component) {
+  _inherits(Content, _Component);
+
+  function Content() {
+    _classCallCheck(this, Content);
+
+    return _possibleConstructorReturn(this, (Content.__proto__ || Object.getPrototypeOf(Content)).apply(this, arguments));
+  }
+
+  _createClass(Content, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "section",
+        { className: "content-part" },
+        _react2.default.createElement(
+          "div",
+          { className: "container" },
+          _react2.default.createElement(
+            "div",
+            { className: "col-md-9 col-sm-12 col-xs-12 padd-r-15" },
+            _react2.default.createElement(
+              "div",
+              { className: "row" },
+              _react2.default.createElement(
+                "form",
+                { className: "search-form" },
+                _react2.default.createElement(
+                  "h3",
+                  null,
+                  "Find The One Right For You"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "form-group" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3 col-xs-12 padd-l-0" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "row" },
+                        _react2.default.createElement(
+                          "label",
+                          null,
+                          "DISPLAY"
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "row" },
+                        _react2.default.createElement(
+                          "div",
+                          { className: "select-field" },
+                          _react2.default.createElement(
+                            "select",
+                            { className: "selectpicker form-control" },
+                            _react2.default.createElement(
+                              "option",
+                              null,
+                              "All"
+                            ),
+                            _react2.default.createElement(
+                              "option",
+                              null,
+                              "All"
+                            ),
+                            _react2.default.createElement(
+                              "option",
+                              null,
+                              "All"
+                            )
+                          )
+                        )
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3 col-xs-12 padd-r-0" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "row" },
+                        _react2.default.createElement(
+                          "label",
+                          null,
+                          "PRICE"
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "row" },
+                        _react2.default.createElement(
+                          "div",
+                          { className: "select-field" },
+                          _react2.default.createElement(
+                            "select",
+                            { className: "selectpicker form-control" },
+                            _react2.default.createElement(
+                              "option",
+                              null,
+                              "Any"
+                            ),
+                            _react2.default.createElement(
+                              "option",
+                              null,
+                              "Any"
+                            ),
+                            _react2.default.createElement(
+                              "option",
+                              null,
+                              "Any"
+                            ),
+                            _react2.default.createElement(
+                              "option",
+                              null,
+                              "Any"
+                            )
+                          )
+                        )
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3 col-xs-12 padd-r-0" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "row" },
+                        _react2.default.createElement(
+                          "label",
+                          null,
+                          "PURPOSE"
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "row" },
+                        _react2.default.createElement(
+                          "div",
+                          { className: "select-field" },
+                          _react2.default.createElement(
+                            "select",
+                            { className: "selectpicker form-control" },
+                            _react2.default.createElement(
+                              "option",
+                              null,
+                              "All"
+                            ),
+                            _react2.default.createElement(
+                              "option",
+                              null,
+                              "All"
+                            ),
+                            _react2.default.createElement(
+                              "option",
+                              null,
+                              "All"
+                            )
+                          )
+                        )
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3 col-xs-12 padd-r-0" },
+                    _react2.default.createElement(
+                      "button",
+                      { type: "button", className: "btn search-btn" },
+                      _react2.default.createElement("i", { className: "icon ion-ios-search" }),
+                      " ",
+                      _react2.default.createElement(
+                        "span",
+                        null,
+                        "SEARCH"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "software-clm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "number" },
+                  "1"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-5 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3" },
+                    _react2.default.createElement(
+                      "i",
+                      { className: "green-arrow" },
+                      _react2.default.createElement("img", { src: "/images/green-arrow.png", alt: "" })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-9 right-border logo-clm" },
+                    _react2.default.createElement("img", { src: "/images/anti-virus-logo.png", alt: "" }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "rating-icons" },
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "checkbox" },
+                      _react2.default.createElement("input", { id: "checkbox1", type: "checkbox" }),
+                      _react2.default.createElement(
+                        "label",
+                        { htmlFor: "checkbox1" },
+                        "COMPARE"
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-7 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Voted Best Antivirus 2018. Removes all Viruses, Malware, Spyware, & Adware. "
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        "READ REVIEW"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "software-price" },
+                        _react2.default.createElement(
+                          "span",
+                          { className: "price" },
+                          "$19.95"
+                        ),
+                        _react2.default.createElement(
+                          "span",
+                          { className: "percentage" },
+                          "96%"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button", className: "btn visit-btn" },
+                        "VISIT WEBSITE"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "software-clm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "number" },
+                  "2"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-5 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3" },
+                    _react2.default.createElement(
+                      "i",
+                      { className: "green-arrow" },
+                      _react2.default.createElement("img", { src: "/images/arrow-sign.png", alt: "" })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-9 right-border logo-clm" },
+                    _react2.default.createElement("img", { src: "/images/scan-gaurd.png", alt: "" }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "rating-icons" },
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "checkbox" },
+                      _react2.default.createElement("input", { id: "checkbox2", type: "checkbox" }),
+                      _react2.default.createElement(
+                        "label",
+                        { htmlFor: "checkbox2" },
+                        "COMPARE"
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-7 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Protects Againest All Malware, Viruses & Adware. Includes PC Cleaner & Optimizer "
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        "READ REVIEW"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "software-price" },
+                        _react2.default.createElement(
+                          "span",
+                          { className: "price" },
+                          "$24.95"
+                        ),
+                        _react2.default.createElement(
+                          "span",
+                          { className: "percentage" },
+                          "92%"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button", className: "btn visit-btn" },
+                        "VISIT WEBSITE"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "software-clm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "number" },
+                  "3"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-5 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3" },
+                    _react2.default.createElement(
+                      "i",
+                      { className: "green-arrow" },
+                      _react2.default.createElement("img", { src: "/images/green-arrow.png", alt: "" })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-9 right-border logo-clm" },
+                    _react2.default.createElement("img", { src: "/images/malware-pro.png", alt: "" }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "rating-icons" },
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star-half" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "checkbox" },
+                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
+                      _react2.default.createElement(
+                        "label",
+                        { htmlFor: "checkbox3" },
+                        "COMPARE"
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-7 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Fantastic value for money! Very slick setup and easy to use. "
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        "READ REVIEW"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "software-price" },
+                        _react2.default.createElement(
+                          "span",
+                          { className: "price" },
+                          "$24.95"
+                        ),
+                        _react2.default.createElement(
+                          "span",
+                          { className: "percentage" },
+                          "90%"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button", className: "btn visit-btn" },
+                        "VISIT WEBSITE"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "software-clm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "number" },
+                  "4"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-5 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3" },
+                    _react2.default.createElement(
+                      "i",
+                      { className: "green-arrow" },
+                      _react2.default.createElement("img", { src: "/images/orange-arrow.png", alt: "" })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-9 right-border logo-clm" },
+                    _react2.default.createElement("img", { src: "/images/mac-afee.png", alt: "" }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "rating-icons" },
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "checkbox" },
+                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
+                      _react2.default.createElement(
+                        "label",
+                        { htmlFor: "checkbox3" },
+                        "COMPARE"
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-7 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Mcafee is a good quality Antivirus software, slightly expensive."
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        "READ REVIEW"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "software-price" },
+                        _react2.default.createElement(
+                          "span",
+                          { className: "price" },
+                          "$79.99"
+                        ),
+                        _react2.default.createElement(
+                          "span",
+                          { className: "percentage" },
+                          "88%"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button", className: "btn visit-btn" },
+                        "VISIT WEBSITE"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "software-clm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "number" },
+                  "5"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-5 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3" },
+                    _react2.default.createElement(
+                      "i",
+                      { className: "green-arrow" },
+                      _react2.default.createElement("img", { src: "/images/orange-arrow.png", alt: "" })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-9 right-border logo-clm" },
+                    _react2.default.createElement("img", { src: "/images/norton.png", alt: "" }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "rating-icons" },
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "checkbox" },
+                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
+                      _react2.default.createElement(
+                        "label",
+                        { htmlFor: "checkbox3" },
+                        "COMPARE"
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-7 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Plenty of features to choose from, Norton are a trusted brand. Can be slow."
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        "READ REVIEW"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "software-price" },
+                        _react2.default.createElement(
+                          "span",
+                          { className: "price" },
+                          "$39.99"
+                        ),
+                        _react2.default.createElement(
+                          "span",
+                          { className: "percentage" },
+                          "87%"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button", className: "btn visit-btn" },
+                        "VISIT WEBSITE"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "software-clm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "number" },
+                  "6"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-5 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3" },
+                    _react2.default.createElement(
+                      "i",
+                      { className: "green-arrow" },
+                      _react2.default.createElement("img", { src: "/images/arrow-sign.png", alt: "" })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-9 right-border logo-clm" },
+                    _react2.default.createElement("img", { src: "/images/bull-guard.png", alt: "" }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "rating-icons" },
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star-half" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "checkbox" },
+                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
+                      _react2.default.createElement(
+                        "label",
+                        { htmlFor: "checkbox3" },
+                        "COMPARE"
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-7 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Good engine, Quite expensive considering the amount of features."
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        "READ REVIEW"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "software-price" },
+                        _react2.default.createElement(
+                          "span",
+                          { className: "price" },
+                          "$27.98"
+                        ),
+                        _react2.default.createElement(
+                          "span",
+                          { className: "percentage" },
+                          "84%"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button", className: "btn visit-btn" },
+                        "VISIT WEBSITE"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "software-clm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "number" },
+                  "7"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-5 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3" },
+                    _react2.default.createElement(
+                      "i",
+                      { className: "green-arrow" },
+                      _react2.default.createElement("img", { src: "/images/arrow-sign.png", alt: "" })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-9 right-border logo-clm" },
+                    _react2.default.createElement("img", { src: "/images/sky-remover.png", alt: "" }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "rating-icons" },
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star-half" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "checkbox" },
+                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
+                      _react2.default.createElement(
+                        "label",
+                        { htmlFor: "checkbox3" },
+                        "COMPARE"
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-7 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Spy Remover Pro is one of the industry leaders in Adwar"
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        "READ REVIEW"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "software-price" },
+                        _react2.default.createElement(
+                          "span",
+                          { className: "price" },
+                          "$39.99"
+                        ),
+                        _react2.default.createElement(
+                          "span",
+                          { className: "percentage" },
+                          "83%"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button", className: "btn visit-btn" },
+                        "VISIT WEBSITE"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "software-clm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "number" },
+                  "8"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-5 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3" },
+                    _react2.default.createElement(
+                      "i",
+                      { className: "green-arrow" },
+                      _react2.default.createElement("img", { src: "/images/green-arrow.png", alt: "" })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-9 right-border logo-clm" },
+                    _react2.default.createElement("img", { src: "/images/pondo-antivirus.png", alt: "" }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "rating-icons" },
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star-half" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "checkbox" },
+                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
+                      _react2.default.createElement(
+                        "label",
+                        { htmlFor: "checkbox3" },
+                        "COMPARE"
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-7 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Panda Anti-Virus Pro is a reputable award winning cyber security company"
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        "READ REVIEW"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "software-price" },
+                        _react2.default.createElement(
+                          "span",
+                          { className: "price" },
+                          "$59.95"
+                        ),
+                        _react2.default.createElement(
+                          "span",
+                          { className: "percentage" },
+                          "82%"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button", className: "btn visit-btn" },
+                        "VISIT WEBSITE"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "software-clm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "number" },
+                  "9"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-5 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3" },
+                    _react2.default.createElement(
+                      "i",
+                      { className: "green-arrow" },
+                      _react2.default.createElement("img", { src: "/images/orange-arrow.png", alt: "" })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-9 right-border logo-clm" },
+                    _react2.default.createElement("img", { src: "/images/avira.png", alt: "" }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "rating-icons" },
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "checkbox" },
+                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
+                      _react2.default.createElement(
+                        "label",
+                        { htmlFor: "checkbox3" },
+                        "COMPARE"
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-7 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "At the time of writing this article, Avira has 564 Million installs Worldwide!"
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        "READ REVIEW"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "software-price" },
+                        _react2.default.createElement(
+                          "span",
+                          { className: "price" },
+                          "$37.59"
+                        ),
+                        _react2.default.createElement(
+                          "span",
+                          { className: "percentage" },
+                          "78%"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button", className: "btn visit-btn" },
+                        "VISIT WEBSITE"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "software-clm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "number" },
+                  "10"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-5 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-3" },
+                    _react2.default.createElement(
+                      "i",
+                      { className: "green-arrow" },
+                      _react2.default.createElement("img", { src: "/images/green-arrow.png", alt: "" })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "col-sm-9 right-border logo-clm" },
+                    _react2.default.createElement("img", { src: "/images/trend.png", alt: "" }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "rating-icons" },
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" }),
+                      _react2.default.createElement("i", { className: "icon ion-android-star grey-star" })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "checkbox" },
+                      _react2.default.createElement("input", { id: "checkbox3", type: "checkbox" }),
+                      _react2.default.createElement(
+                        "label",
+                        { htmlFor: "checkbox3" },
+                        "COMPARE"
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-sm-7 col-xs-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Middle of the road antivirus, not overly expensive but not feature packed."
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        "READ REVIEW"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5 col-xs-12 description" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "software-price" },
+                        _react2.default.createElement(
+                          "span",
+                          { className: "price" },
+                          "$41.97"
+                        ),
+                        _react2.default.createElement(
+                          "span",
+                          { className: "percentage" },
+                          "78%"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button", className: "btn visit-btn" },
+                        "VISIT WEBSITE"
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "col-md-3 col-sm-12 col-xs-12" },
+            _react2.default.createElement(
+              "div",
+              { className: "row" },
+              _react2.default.createElement(
+                "div",
+                { className: "side-bar" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      " ",
+                      _react2.default.createElement(
+                        "i",
+                        null,
+                        _react2.default.createElement("img", { src: "/images/new-post.png", alt: "" })
+                      ),
+                      "About Author"
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-5" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "row" },
+                        _react2.default.createElement(
+                          "div",
+                          { className: "profile-img" },
+                          _react2.default.createElement("img", { src: "/images/profile-img.png", alt: "" })
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "col-sm-7" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "row" },
+                        _react2.default.createElement(
+                          "div",
+                          { className: "profile-name" },
+                          _react2.default.createElement(
+                            "h4",
+                            null,
+                            "DAVID PETERSON"
+                          ),
+                          _react2.default.createElement(
+                            "span",
+                            null,
+                            "Sed dia nonummy"
+                          )
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "Lorem ipsum dolor consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. "
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      " ",
+                      _react2.default.createElement(
+                        "i",
+                        null,
+                        _react2.default.createElement("img", { src: "/images/shield-icon.png", alt: "" })
+                      ),
+                      "Select a Provider"
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "button",
+                    { type: "button", className: "btn choose-btn" },
+                    "Choose an Antivirus"
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      " ",
+                      _react2.default.createElement(
+                        "i",
+                        null,
+                        _react2.default.createElement("img", { src: "/images/sound.png", alt: "" })
+                      ),
+                      "Advertising Disclosure "
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      " ",
+                      _react2.default.createElement(
+                        "i",
+                        null,
+                        _react2.default.createElement("img", { src: "/images/arrow.png", alt: "" })
+                      ),
+                      "Comparison Table"
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "button",
+                    { type: "button", className: "btn choose-btn" },
+                    "Compare Antivirus"
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm dark-bg" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      " ",
+                      _react2.default.createElement(
+                        "i",
+                        null,
+                        _react2.default.createElement("img", { src: "/images/anti-virus.png", alt: "" })
+                      ),
+                      "The Top 10 AntiVirus"
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "Sed diam nonummy nib euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wi enim ad minim veniam, quis nos exerci tation ullamcorper suscip lobortis nisl ut aliquip ex consequat. "
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      " Sign Up To Newsletter"
+                    ),
+                    _react2.default.createElement(
+                      "form",
+                      { className: "newsletter-form" },
+                      _react2.default.createElement("input", { type: "email", name: "", value: "", placeholder: "Enter yoaur email", className: "form-control" }),
+                      _react2.default.createElement("input", { type: "submit", value: "SIGN UP" })
+                    )
+                  )
+                )
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "section",
+          { className: "must-read" },
+          _react2.default.createElement(
+            "div",
+            { className: "container" },
+            _react2.default.createElement(
+              "div",
+              { className: "title" },
+              _react2.default.createElement(
+                "h2",
+                null,
+                "Must Reads"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "col-sm-3 col-xs-12 padd-l-0" },
+              _react2.default.createElement(
+                "div",
+                { className: "img-clm" },
+                _react2.default.createElement("img", { src: "/images/1.jpg", alt: "" }),
+                _react2.default.createElement(
+                  "div",
+                  { className: "content-img" },
+                  _react2.default.createElement(
+                    "span",
+                    null,
+                    "Best Antivirus Software"
+                  ),
+                  _react2.default.createElement(
+                    "h3",
+                    null,
+                    "Ut wi enim ad mini veniam, quis nos exerci tation."
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "description-img" },
+                _react2.default.createElement(
+                  "p",
+                  null,
+                  "Lorem ipsum dolor  consect adipiscing elit, sed dia nonummy nib tincidunt ut laoreet dolore magna volutpat."
+                )
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "col-sm-3 col-xs-12" },
+              _react2.default.createElement(
+                "div",
+                { className: "img-clm" },
+                _react2.default.createElement("img", { src: "/images/2.jpg", alt: "" }),
+                _react2.default.createElement(
+                  "div",
+                  { className: "content-img" },
+                  _react2.default.createElement(
+                    "span",
+                    null,
+                    "Best Antivirus Software"
+                  ),
+                  _react2.default.createElement(
+                    "h3",
+                    null,
+                    "Ut wi enim ad mini veniam, quis nos exerci tation."
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "description-img" },
+                _react2.default.createElement(
+                  "p",
+                  null,
+                  "Lorem ipsum dolor  consect adipiscing elit, sed dia nonummy nib tincidunt ut laoreet dolore magna volutpat."
+                )
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "col-sm-3 col-xs-12" },
+              _react2.default.createElement(
+                "div",
+                { className: "img-clm" },
+                _react2.default.createElement("img", { src: "/images/3.jpg", alt: "" }),
+                _react2.default.createElement(
+                  "div",
+                  { className: "content-img" },
+                  _react2.default.createElement(
+                    "span",
+                    null,
+                    "Best Antivirus Software"
+                  ),
+                  _react2.default.createElement(
+                    "h3",
+                    null,
+                    "Ut wi enim ad mini veniam, quis nos exerci tation."
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "description-img" },
+                _react2.default.createElement(
+                  "p",
+                  null,
+                  "Lorem ipsum dolor  consect adipiscing elit, sed dia nonummy nib tincidunt ut laoreet dolore magna volutpat."
+                )
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "col-sm-3 col-xs-12 padd-r-0" },
+              _react2.default.createElement(
+                "div",
+                { className: "img-clm" },
+                _react2.default.createElement("img", { src: "/images/4.jpg", alt: "" }),
+                _react2.default.createElement(
+                  "div",
+                  { className: "content-img" },
+                  _react2.default.createElement(
+                    "span",
+                    null,
+                    "Best Antivirus Software"
+                  ),
+                  _react2.default.createElement(
+                    "h3",
+                    null,
+                    "Ut wi enim ad mini veniam, quis nos exerci tation."
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "description-img" },
+                _react2.default.createElement(
+                  "p",
+                  null,
+                  "Lorem ipsum dolor  consect adipiscing elit, sed dia nonummy nib tincidunt ut laoreet dolore magna volutpat."
+                )
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "section",
+          { className: "choose-section" },
+          _react2.default.createElement(
+            "div",
+            { className: "container" },
+            _react2.default.createElement(
+              "div",
+              { className: "title" },
+              _react2.default.createElement(
+                "h2",
+                null,
+                "How to Choose the Best Antivirus Software"
+              )
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "There are many things to consider when choosing your antivirus provider. We have compiled a number of fact filled articles detailed around the antivirus to help you make the right decision. Stay up to date with all the latest Antivirus news."
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "panel-group accordian software-accourdian", id: "accordion2" },
+              _react2.default.createElement(
+                "div",
+                { className: "panel panel-default" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "panel-heading" },
+                  _react2.default.createElement(
+                    "h4",
+                    { className: "panel-title" },
+                    _react2.default.createElement(
+                      "a",
+                      { className: "accordion-toggle", "data-toggle": "collapse", "data-parent": "#accordion2", href: "#collapse11" },
+                      "Best Antivirus 2017 Revealed ",
+                      _react2.default.createElement("i", { className: "fa fa-plus", style: { float: 'right' } })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "panel-collapse collapse", id: "collapse11" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "panel-body" },
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "We have spent countless hours testing and reviewing the vast number of antivirus companies across the web. TotalAV is our top choice, with Scanguard coming at a close second. It\u2019s a brand new security suite that hit the market in 2017 and has impressed us in all aspects including their design and detection rate. "
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "TotalAV\u2019s scans were quick and thorough, we tested 30+ Antiviruses and it had the highest detection rate out of ALL these companies. We can say with confidence that Total AV has the performance that matches and beats the leading names in the antivirus business."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "TotalAV has a quality support section on their website. They offer live chat with average connection time of under a minute. We tested some companies that didn\u2019t even offer a live chat service! Their FAQ and knowledge sections are also great if you have a simple question that does not require contacting their live support. "
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "TotalAV offers only one plan to choose from, which makes it pretty easy to make a decision. TotalAV also offers you to tailor the software to your needs, if you want a simple antivirus with no additional features, you can do that! They have listened to the consumers and don\u2019t include gimmicky add-ons, but you can add them if you feel like you need them!"
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "In conclusion, TotalAV may be new to the market but it has matched and beaten competitors in every way possible. This is great news because when they first launched, they were the underdogs of the business, but now they are on top!"
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "panel panel-default" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "panel-heading" },
+                  _react2.default.createElement(
+                    "h4",
+                    { className: "panel-title" },
+                    _react2.default.createElement(
+                      "a",
+                      { className: "accordion-toggle", "data-toggle": "collapse", "data-parent": "#accordion2", href: "#collapse12" },
+                      "Choosing The Best Antivirus Software ",
+                      _react2.default.createElement("i", { className: "fa fa-plus", style: { float: 'right' } })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "panel-collapse collapse", id: "collapse12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "panel-body" },
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "We have spent countless hours testing and reviewing the vast number of antivirus companies across the web. TotalAV is our top choice, with Scanguard coming at a close second. It\u2019s a brand new security suite that hit the market in 2017 and has impressed us in all aspects including their design and detection rate. "
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "TotalAV\u2019s scans were quick and thorough, we tested 30+ Antiviruses and it had the highest detection rate out of ALL these companies. We can say with confidence that Total AV has the performance that matches and beats the leading names in the antivirus business."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "TotalAV has a quality support section on their website. They offer live chat with average connection time of under a minute. We tested some companies that didn\u2019t even offer a live chat service! Their FAQ and knowledge sections are also great if you have a simple question that does not require contacting their live support. "
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "TotalAV offers only one plan to choose from, which makes it pretty easy to make a decision. TotalAV also offers you to tailor the software to your needs, if you want a simple antivirus with no additional features, you can do that! They have listened to the consumers and don\u2019t include gimmicky add-ons, but you can add them if you feel like you need them!"
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "In conclusion, TotalAV may be new to the market but it has matched and beaten competitors in every way possible. This is great news because when they first launched, they were the underdogs of the business, but now they are on top!"
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+
+      $('.collapse').on('shown.bs.collapse', function () {
+        $(this).parent().find(".fa-plus").removeClass("fa-plus").addClass("fa-minus");
+      }).on('hidden.bs.collapse', function () {
+        $(this).parent().find(".fa-minus").removeClass("fa-minus").addClass("fa-plus");
+      });
+
+      $('.selectpicker').selectpicker();
+      $('.rm-mustard').click(function () {
+        $('.remove-example').find('[value=Mustard]').remove();
+        $('.remove-example').selectpicker('refresh');
+      });
+      $('.rm-ketchup').click(function () {
+        $('.remove-example').find('[value=Ketchup]').remove();
+        $('.remove-example').selectpicker('refresh');
+      });
+      $('.rm-relish').click(function () {
+        $('.remove-example').find('[value=Relish]').remove();
+        $('.remove-example').selectpicker('refresh');
+      });
+      $('.ex-disable').click(function () {
+        $('.disable-example').prop('disabled', true);
+        $('.disable-example').selectpicker('refresh');
+      });
+      $('.ex-enable').click(function () {
+        $('.disable-example').prop('disabled', false);
+        $('.disable-example').selectpicker('refresh');
+      });
+
+      $(".panel-heading").click(function () {
+        $(".accordion-toggle").addClass('open');
+      });
+      if ($('.toggletag').hasClass('open')) {
+        $("html").click(function () {
+          $(".toggletag").removeClass('open');
+        });
+      }
+
+      jQuery(".accordion-toggle").click(function () {
+
+        if (jQuery(this).hasClass("active")) {
+          jQuery(this).removeClass("active");
+        } else {
+          jQuery(this).addClass("active");
+        }
+      });
+    }
+  }]);
+
+  return Content;
+}(_react.Component);
+
+exports.default = Content;
 
 /***/ })
 /******/ ]);
