@@ -143,7 +143,7 @@ class Content extends Component {
                         </div>
 
                         <div className="half">
-                          <input type="text" name="" className="fom" placeholder="Eamil Address" />
+                          <input type="text" name="" className="fom" placeholder="Email Address" />
                         </div>
 
                         <div className="raj"><h3 style={{float:'left'}}>Over all rating</h3><div className="rating-icons" style={{margin:'0px'}}>

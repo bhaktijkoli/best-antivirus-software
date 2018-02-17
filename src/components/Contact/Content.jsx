@@ -18,9 +18,9 @@ class Content extends Component {
                         <input type="text" name="" className="fom" placeholder="Name" />
                       </div>
                       <div className="half">
-                        <input type="text" name="" className="fom" placeholder="Eamil Address" />
+                        <input type="text" name="" className="fom" placeholder="Email Address" />
                       </div>
-                      <textarea  name="" className="jom" placeholder="Your Mesage"></textarea></div>
+                      <textarea  name="" className="jom" placeholder="Your Message"></textarea></div>
                       <div className="bott" style={{marginLeft:'9px', marginBottom:'26px'}}>
                         <button type="button bott" className="btn visit-btn">SEND MESSAGE</button>
                       </div>

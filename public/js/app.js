@@ -16113,7 +16113,7 @@ var Content = function (_Component) {
                   _react2.default.createElement(
                     "div",
                     { className: "half" },
-                    _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Eamil Address" })
+                    _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Email Address" })
                   ),
                   _react2.default.createElement(
                     "div",
@@ -17003,9 +17003,9 @@ var Content = function (_Component) {
                       _react2.default.createElement(
                         "div",
                         { className: "half" },
-                        _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Eamil Address" })
+                        _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Email Address" })
                       ),
-                      _react2.default.createElement("textarea", { name: "", className: "jom", placeholder: "Your Mesage" })
+                      _react2.default.createElement("textarea", { name: "", className: "jom", placeholder: "Your Message" })
                     ),
                     _react2.default.createElement(
                       "div",
