@@ -39,7 +39,7 @@ class Footer extends Component {
                           <li><a href="#">Contact</a></li>
                           <li><Link to="/disclaimer">Disclaimer</Link></li>
                           <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-                          <li><a href="#">Terms & Conditions</a></li>
+                          <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
                       </ul>
 
                       <div className="copyright">

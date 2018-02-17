@@ -7,6 +7,7 @@ import Review from './Review/Review.jsx';
 import About from './About/About.jsx';
 import Disclaimer from './Disclaimer/Disclaimer.jsx';
 import PrivacyPolicy from './PrivacyPolicy/PrivacyPolicy.jsx';
+import Terms from './Terms/Terms.jsx';
 import Footer from './Footer/Footer.jsx';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route exact path="/about" component={About}/>
             <Route exact path="/disclaimer" component={Disclaimer}/>
             <Route exact path="/privacy-policy" component={PrivacyPolicy}/>
+            <Route exact path="/terms-and-conditions" component={Terms}/>
           <Footer />
         </div>
       </BrowserRouter>
