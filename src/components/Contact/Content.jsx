@@ -11,7 +11,7 @@ class Content extends Component {
                 <div className="side-bar-clm">
                   <div className="inner-content">
                     <h3>Contact</h3>
-                    <p>Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl.</p>
+                    <p>If you would like to get in touch with us to let us know your thoughts about our website, or to give some additional feedback on our featured Anti Virus providers, please use the form below. We look forward to hearing from you.</p>
                     <div className="space" style={{marginTop:'20px'}}></div>
                     <div className="frm">
                       <div className="half">
@@ -24,6 +24,7 @@ class Content extends Component {
                       <div className="bott" style={{marginLeft:'9px', marginBottom:'26px'}}>
                         <button type="button bott" className="btn visit-btn">SEND MESSAGE</button>
                       </div>
+                      <p>Alternatively, you can contact us directly via support@bestantivirussoftware.info</p>
                     </div>
                   </div>
                 </div>

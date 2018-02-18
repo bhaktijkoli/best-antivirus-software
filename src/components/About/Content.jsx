@@ -11,8 +11,9 @@ class Content extends Component {
                 <div className="side-bar-clm">
                   <div className="inner-content">
                     <h3>About</h3>
-                    <p>Lorem ipsum dolor consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl.</p>
-                    <p style={{marginTop:'15px'}}>Lorem ipsum dolor consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. </p>
+                    <p>Brian Johnstone worked as a Security Analysis for Trend Micro from 2006-2016, specializing in analyzing the newest threats that entered cyberspace. After Brian retired in 2016, he decided to form the BestAntiVirusSoftware. BestAntivirusSoftware focuses on being an unbiased, critical source for people looking to increase their security on the internet.</p>
+                    <p style={{marginTop:'25px'}}>John Baker worked as a Chief Security Officer for multiple start-ups throughout his career. He focused on analyzing and fixing security threats that could make or break a start-up. In his spare time, he likes to rock climb and write as a guest writer for American Software Society.</p>
+                    <p style={{marginTop:'25px'}}>Ryan Halden brings over a decade of IT security news reporting to BestAntivirusSoftware. Prior to joining American Software Society, he worked as an editor for the Information Security magazine where he developed his skill in writing. Now that Ryan works for American Software Society he covers the critical security issues and cybercrime affecting business and consumers today, and in his free time he writes for BestAntivirusSoftware to help people around the world stay safe on the internet.</p>
                   </div>
                 </div>
               </div>

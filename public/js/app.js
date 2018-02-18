@@ -16691,12 +16691,17 @@ var Content = function (_Component) {
                     _react2.default.createElement(
                       "p",
                       null,
-                      "Lorem ipsum dolor consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                      "Brian Johnstone worked as a Security Analysis for Trend Micro from 2006-2016, specializing in analyzing the newest threats that entered cyberspace. After Brian retired in 2016, he decided to form the BestAntiVirusSoftware. BestAntivirusSoftware focuses on being an unbiased, critical source for people looking to increase their security on the internet."
                     ),
                     _react2.default.createElement(
                       "p",
-                      { style: { marginTop: '15px' } },
-                      "Lorem ipsum dolor consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. "
+                      { style: { marginTop: '25px' } },
+                      "John Baker worked as a Chief Security Officer for multiple start-ups throughout his career. He focused on analyzing and fixing security threats that could make or break a start-up. In his spare time, he likes to rock climb and write as a guest writer for American Software Society."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '25px' } },
+                      "Ryan Halden brings over a decade of IT security news reporting to BestAntivirusSoftware. Prior to joining American Software Society, he worked as an editor for the Information Security magazine where he developed his skill in writing. Now that Ryan works for American Software Society he covers the critical security issues and cybercrime affecting business and consumers today, and in his free time he writes for BestAntivirusSoftware to help people around the world stay safe on the internet."
                     )
                   )
                 )
@@ -16989,7 +16994,7 @@ var Content = function (_Component) {
                     _react2.default.createElement(
                       "p",
                       null,
-                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                      "If you would like to get in touch with us to let us know your thoughts about our website, or to give some additional feedback on our featured Anti Virus providers, please use the form below. We look forward to hearing from you."
                     ),
                     _react2.default.createElement("div", { className: "space", style: { marginTop: '20px' } }),
                     _react2.default.createElement(
@@ -17015,6 +17020,11 @@ var Content = function (_Component) {
                         { type: "button bott", className: "btn visit-btn" },
                         "SEND MESSAGE"
                       )
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "Alternatively, you can contact us directly via support@bestantivirussoftware.info"
                     )
                   )
                 )
@@ -17309,12 +17319,66 @@ var Content = function (_Component) {
                     _react2.default.createElement(
                       "p",
                       null,
-                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                      "This website is a free online resource to help you make an informed decision when choosing an antivirus software. We receive advertising compensation from many of the antivirus programs featured on this site. The compensation received impacts the location in which companies are listed and in some cases impact the scores to aid this. The scoring on this website is determined by BestAntivirusSoftware in its sole discretion."
                     ),
                     _react2.default.createElement(
                       "p",
-                      { style: { marginTop: '15px' } },
-                      "Lorem ipsum dolor consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. "
+                      { style: { marginTop: '25px' } },
+                      "The content, scores, ratings, trends and reviews expressed on this site are the sole discretion of BestAntivirusSoftware.info. The information is strictly for research and informational purposes only. We do our best to keep all information up to date and accurate but cannot guarantee it. In order to keep this information service free, BestAntivirusSoftware.info receives monetary compensation from some of the companies featured on this website."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '25px' } },
+                      "This website is a buyer\u2019s guide and not considered as advice. BestAntivirusSoftware.info receives monetary compensation from companies listed to showcase their products. There may be incorrect or inaccurate Information that appears on this however, the webmasters do their best to verify data and maintain accuracy, but no warranty is expressed or given to the users."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '25px' } },
+                      "BestAntivirusSoftware.info and its subsidiaries, affiliates, staff, nor any person connected with the development or the maintaining of this website shall be in any way accountable or liable to any degree for any indirect, direct, special, 3rd party or consequential losses, damages or expenses that may arise from using this website. We will not be responsible for any detrimental reliance that you may place upon the site or its contents."
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "row" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      "Confidentiality and Security"
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "You, the user of this website herby acknowledge and agree that BestAntivirusSoftware.info and its partners or affiliates cannot be held liable for damages that may occur as a result of your confidential information being transmitted to or from this website over the internet and that all communications are deemed at your own risk."
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "row" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      "Contacting us"
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      null,
+                      "If you have any questions, please contact us at: support@BestAntivirusSoftware.info"
                     )
                   )
                 )
@@ -17953,12 +18017,338 @@ var Content = function (_Component) {
                     _react2.default.createElement(
                       "p",
                       null,
-                      "Lorem ipsum dolor  consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl."
+                      "PLEASE READ THE FOLLOWING CAREFULLY BEFORE ACCESSING AND/OR USING ANY PART OF THE SITE. Welcome to www.bestantivirussoftware.info (together with its subdomains, Content and Marks, the \u201CSite\u201D). Please read the following Terms of Use carefully before using this Site so that you are aware of your legal rights and obligations with respect to BestAntivirusSoftware Ltd. (\"BAS\u201D, \"we\", \"our\" or \"us\"). By accessing or using the Site, you expressly acknowledge and agree that you are entering a binding legal agreement with us and have understood and agree to comply with, and be legally bound by, these Terms of Use, together with the Privacy Policy that can be accessed by clicking here Privacy Policy (the \"Terms\"). You hereby waive any applicable rights to require an original (non-electronic) signature or delivery or retention of non-electronic records, to the extent not prohibited under applicable law. If you do not agree to be bound by these Terms please do not access or use the Site."
                     ),
                     _react2.default.createElement(
                       "p",
-                      { style: { marginTop: '15px' } },
-                      "Lorem ipsum dolor consectetuer adipiscing elit, sed dia nonummy nibh euismod tincidunt ut laoreet dolore magna alique volutpat. "
+                      { style: { marginTop: '20px' } },
+                      "1. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Modification."
+                      ),
+                      " We reserve the right, at our discretion, to change these Terms at any time. Such change will be effective ten (10) days following posting of the revised Terms on the Site, and your continued use of the Site thereafter means that you accept those changes."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "2. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Ability."
+                      ),
+                      " to Accept Terms. The Site is only intended for individuals aged sixteen (16) years or older. If you are under 16 years please do not visit or use the Site."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "3. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Site Access."
+                      ),
+                      " During the period in which these Terms are in effect, we hereby grant you permission to visit and use the Site, provided that you comply with these Terms and applicable law."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "4. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Restrictions."
+                      ),
+                      " You shall not: (i) copy, distribute or modify any part of the Site without our prior written authorization; (ii) use, modify, create derivative works of, transfer (by sale, resale, license, sublicense, download or otherwise), reproduce, distribute, display or disclose Content (defined below), except as expressly authorized herein; (iii) disrupt servers or networks connected to the Site; (iv) use or launch any automated system (including without limitation, \"robots\" and \"spiders\") to access the Site; and/or (v) circumvent, disable or otherwise interfere with security-related features of the Site or features that prevent or restrict use or copying of any Content or that enforce limitations on use of the Site."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "5. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Intellectual Property Rights."
+                      ),
+                      _react2.default.createElement(
+                        "ol",
+                        null,
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "Content and Marks. The (i) content on the Site, including without limitation, the text, documents, articles, brochures, descriptions, products, software, graphics, photos, sounds, videos, interactive features, and services (collectively, the \"Materials\"), (ii) and User Submissions, as defined below (together with the Materials, the \"Content\"), and (iii) the trademarks, service marks and logos contained therein (\"Marks\"), are the property of BAS and/or its licensors and are protected by applicable copyright or other intellectual property laws and treaties. The Site, the Site logo, and other marks are Marks of BAS or its affiliates. All other trademarks, service marks, and logos used on the Site are the trademarks, service marks, or logos of their respective owners. We reserve all rights not expressly granted in and to the Site and the Content."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "Use of Content. Content on the Site is provided to you for your information and personal use only and may not be used, modified, copied, distributed, transmitted, broadcast, displayed, sold, licensed, de-compiled, reverse engineered, or otherwise exploited for any other purposes whatsoever (including, without limitation, to create derivative works) without our prior written consent. If you download or print a copy of the Content you must retain all copyright and other proprietary notices contained therein."
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "6. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Third Party Sources and Content."
+                      ),
+                      _react2.default.createElement(
+                        "ol",
+                        null,
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "The Site enables you to view, access, link to, and use content from Third Party Sources (defined below) that are not owned or controlled by us (\"Third Party Content\"). The Site may also enable you to communicate and interact with Third Party Sources. \"Third Party Source(s)\" means: (i) third party websites and services; and (ii) our partners and customers."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "We have no control over any Third Party Sources. We do not assume any responsibility for the content, terms of use, privacy policies, actions or practices of, any Third Party Sources. Please read the terms of use and privacy policy of any Third Party Source that you interact with before you engage in any such activity."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "We are not responsible for, and we expressly disclaim all warranties regarding, the accuracy, appropriateness, usefulness, safety, or Intellectual Property Rights (defined below) of, or relating to, any Third Party Content."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "By using the Site you may be exposed to Third Party Content that is inaccurate, offensive, indecent, or objectionable. You always have the choice of deciding whether or not to interact with a Third Party Source or to view and use Third Party Content. Your interaction with a Third Party Source and your use of, and reliance upon, any Third Party Content is at your sole discretion and risk."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "You are solely responsible and liable for your interaction with a Third Party Source. You agree to waive, and hereby do waive, any legal or equitable rights or remedies you may have against BAS, and release BAS from any and all liability, arising from your use of and interaction on any Third Party Content and from your interaction with any Third Party Source. If you have any query or complaint regarding a Third Party Source or any Third Party Content, you agree to contact the Third Party Source directly."
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "7. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "User Submissions."
+                      ),
+                      _react2.default.createElement(
+                        "ol",
+                        null,
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "Responsibility. The Site may permit the submission, hosting, sharing and publishing of Content by you and other users (\"User Submissions\"). You understand that whether or not such User Submissions are published, we do not guarantee any confidentiality with respect to any User Submissions. You shall be solely responsible for your User Submissions and the consequences of posting, publishing or uploading them. We have complete discretion whether to publish your User Submissions and we reserve the right in our sole discretion and without further notice to you, to monitor, censor, edit, remove, delete, and/or remove any and all Content posted on the Site (including User Submissions) at any time and for any reason."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "Ownership. You represent and warrant that you own or have the necessary rights and permissions to use and authorize the Site to use all Intellectual Property Rights (defined below) in and to your User Submissions, and to enable inclusion and use thereof as contemplated by the Site and these Terms. Unless the User Submissions are separately referred to, all references herein to Content shall include references to User Submissions. \"Intellectual Property Rights\" means any and all rights, titles and interests, whether foreign or domestic, in and to any and all trade secrets, patents, copyrights, service marks, trademarks, know-how, or similar intellectual property rights, as well as any and all moral rights, rights of privacy, publicity and similar rights of any type under the laws or regulations of any governmental, regulatory, or judicial authority, foreign or domestic. You retain all of your ownership rights in and to your User Submissions."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "License to User Submissions. By submitting the User Submissions to BAS, you hereby grant BAS a worldwide, irrevocable, non-exclusive, royalty-free, perpetual, sublicenseable and transferable license to use, reproduce, distribute, prepare derivative works of display, and perform the User Submissions in connection with the Site and BAS business, including without limitation for redistributing part or all of your User Submissions (and derivative works thereof) in any media formats and through any media channels and, and you hereby waive any moral rights in your User Submissions, to the extent permitted by law. You also hereby grant each user of the Site or other viewer or user of the User Submission a non-exclusive right to use, reproduce, distribute, prepare derivative works of, display and perform such User Submissions, all in accordance with these Terms."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "Prohibited Content. You agree that you will not display, post, submit, publish, upload or transmit a User Submission that: (i) is unfair or deceptive under the consumer protection laws of any jurisdiction; (ii) is copyrighted, protected by trade secret or otherwise subject to third party proprietary rights, including privacy and publicity rights, unless you are the owner of such rights; (iii) creates a risk to a person\u2019s safety or health, creates a risk to public safety or health, compromises national security, or interferes with an investigation by law enforcement; (iv) impersonates another person; (v) promotes illegal drugs, violates export control laws, relates to illegal gambling, or illegal arms trafficking; (vi) is unlawful, defamatory, libelous, threatening, pornographic, harassing, hateful, racially or ethnically offensive, or encourages conduct that would be considered a criminal offense, gives rise to civil liability, violates any law, or is inappropriate; (vii) involves theft or terrorism; or (viii) is otherwise malicious or fraudulent."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "Exposure. You understand and acknowledge that when accessing and using the Site: (i) you will be exposed to User Submissions from a variety of sources, and that BAS is not responsible for the accuracy, usefulness, safety, or Intellectual Property Rights of, or relating to, such User Submissions; and (ii) you may be exposed to User Submissions that are inaccurate, offensive, indecent, or objectionable. You hereby agree to waive, and hereby do waive, any legal or equitable rights or remedies you may have against BAS with respect to (i) and (ii) herein."
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "8. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Information Description."
+                      ),
+                      " We attempt to be as accurate as possible. However, we cannot and do not warrant that the Content available on the Site is accurate, complete, reliable, current, or error-free. We reserve the right to make changes in or to the Content, or any part thereof, in our sole judgment, without the requirement of giving any notice prior to or after making such changes to the Content. Your use of the Content, or any part thereof, is made solely at your own risk and responsibility."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "9. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Disclosure."
+                      ),
+                      " We reserve the right to access, read, preserve, and disclose any information that we obtain in connection with the Site, and your use thereof, as we reasonably believe is necessary to (i) satisfy any applicable law, regulation, legal process, subpoena or governmental request, (ii) enforce the Site Terms, including to investigate potential violations of them, (iii) detect, prevent, or otherwise address fraud, security or technical issues, (iv) respond to user support requests, or (v) protect the rights, property or safety of BAS, its users or the public."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "10. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Links."
+                      ),
+                      _react2.default.createElement(
+                        "ol",
+                        null,
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "The Site may contain links, and may enable you to post content, to third party websites that are not owned or controlled by BAS. We are not affiliated with, have no control over, and assume no responsibility for the content, privacy policies, or practices of, any third party websites. You: (i) are solely responsible and liable for your use of and linking to third party websites and any content that you may send or post to a third party website; and (ii) expressly release BAS from any and all liability arising from your use of any third party website. Accordingly, we encourage you to read the terms and conditions and privacy policy of each third party website that you may choose to visit."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "We permits you to link to the Site provided that: (i) you link to but do not replicate any page on this Site; (ii) the hyperlink text shall accurately describe the Content as it appears on the Site; (iii) you shall not misrepresent your relationship with BAS or present any false information about BAS and shall not imply in any way that we are endorsing any services or products, unless we have given you our express prior consent; (iv) you shall not link from a website that contain content that (a) is offensive or controversial (both at our discretion), or (b) infringes any intellectual property, privacy rights, or other rights of any person or entity; and/or (v) you, and your website, comply with these Terms and applicable law."
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "11. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Privacy."
+                      ),
+                      " We will use any personal information that we may collect or obtain in connection with the Site in accordance with our privacy policy which is available at Privacy Policy. You agree that we may use personal information that you provide or make available to us in accordance with the Privacy Policy."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "12. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Warranty Disclaimers."
+                      ),
+                      _react2.default.createElement(
+                        "ol",
+                        null,
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "This section applies whether or not the services provided under the Site are for payment. Applicable law may not allow the exclusion of certain warranties, so to that extent certain exclusions set forth herein may not apply."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "THE SITE IS PROVIDED ON AN \"AS IS\" AND \"AS AVAILABLE\" BASIS, AND WITHOUT WARRANTIES OF ANY KIND EITHER EXPRESS OR IMPLIED. BAS HEREBY DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANT ABILITY, TITLE, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND THOSE ARISING BY STATUTE OR FROM A COURSE OF DEALING OR USAGE OF TRADE. BAS DOES NOT GUARANTEE THAT THE SITE WILL BE FREE OF BUGS, SECURITY BREACHES, OR VIRUS ATTACKS. THE SITE MAY OCCASIONALLY BE UNAVAILABLE FOR ROUTINE MAINTENANCE, UPGRADING, OR OTHER REASONS. YOU AGREE THAT BAS WILL NOT BE HELD RESPONSIBLE FOR ANY CONSEQUENCES TO YOU OR ANY THIRD PARTY THAT MAY RESULT FROM TECHNICAL PROBLEMS OF THE INTERNET, SLOW CONNECTIONS, TRAFFIC CONGESTION OR OVERLOAD OF OUR OR OTHER SERVERS. WE DO NOT WARRANT, ENDORSE OR GUARANTEE ANY CONTENT, PRODUCT, OR SERVICE THAT IS FEATURED OR ADVERTISED ON THE SITE BY A THIRD PARTY."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "BAS DOES NOT WARRANT, ENDORSE OR GUARANTEE ANY CONTENT THAT APPEARS IN A USER SUBMISSION, AND DOES NOT MAKE ANY REPRESENTATION OR WARRANTY WITH RESPECT TO, AND DISCLAIMS ALL LIABILITY FOR, ANY SUCH CONTENT."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "YOU SPECIFICALLY ACKNOWLEDGE THAT BAS SHALL NOT BE RESPONSIBLE FOR THE USER SUBMISSIONS OR CONDUCT (INCLUDING DEFAMATORY, OFFENSIVE, ILLEGAL, OR NEGLIGENT CONDUCT) OF ANY SITE USER AND THAT THE RISK OF HARM OR DAMAGE FROM THE FOREGOING RESTS ENTIRELY WITH YOU."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "YOUR RELIANCE ON, OR USE OF, ANY SITE CONTENT (INCLUDING WITHOUT LIMITATION, ANY USER SUBMISSIONS), OR INTERACTION WITH ANY THIRD PARTY FEATURED ON THE SITE, IS AT YOUR SOLE RISK. IF YOU HAVE A DISPUTE WITH ANY THIRD PARTY AS A RESULT OF, OR ARISING FROM YOUR USE OF THE SITE, YOU AGREE THAT BAS IS NOT AND SHALL NOT BE LIABLE FOR ANY CLAIMS OR DAMAGES ARISING OUT OF OR CONNECTED WITH SUCH DISPUTE."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "EXCEPT AS EXPRESSLY STATED IN OUR PRIVACY POLICY, WE DO NOT MAKE ANY REPRESENTATIONS, WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE SECURITY OF ANY INFORMATION YOU MAY PROVIDE OR ACTIVITIES YOU ENGAGE IN DURING THE COURSE OF YOUR USE OF THE SITE."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "WE ENDEAVOR TO OFFER YOU VALUABLE INFORMATION ABOUT THE PRODUCTS AND SERVICES THAT ARE FEATURED / REVIEWED ON THE SITE. HOWEVER, IN ORDER TO PROVIDE YOU WITH THIS INFORMATION AT NO COST, WE MUST SEEKREVENUES OPPORTUNITIES THROUGH OTHER MEANS. BY WAY OF EXAMPLE, WE MAY CHARGE A PLACEMENT FEE TO THOSE THIRD PARTIES THAT ARE FEATURED ON OUR SITE, AND WE MAY RECEIVE FEES EACH TIME A USER CLICKS THROUGH TO ONE OR MORE SUCH PARTIES AND/OR ACTUALLY PURCHASES PRODUCTS/SERVICES THAT ARE OFFERED BY ANY OF THEM. IN ALL CASES, HOWEVER, THE REVENUES THAT ARE PAID TO BAS WILL NOT INFLUENCE THE MATERIAL WE PRESENT ABOUT A SPECIFIC THIRD PARTY FEATURED ON OUR SITE."
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "13. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Limitation of Liability."
+                      ),
+                      _react2.default.createElement(
+                        "ol",
+                        null,
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "TO THE FULLEST EXTENT PERMISSIBLE BY LAW, BAS SHALL NOT BE LIABLE FOR ANY INDIRECT, EXEMPLARY, SPECIAL, CONSEQUENTIAL, OR INCIDENTAL DAMAGES OF ANY KIND, OR FOR ANY LOSS OF DATA, REVENUE, PROFITS OR REPUTATION, ARISING UNDER THESE TERMS OR OUT OF YOUR USE OF, OR INABILITY TO USE, THE SITE, EVEN IF BAS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES. Some jurisdictions do not allow the limitation or exclusion of liability for incidental or consequential damages, so the above limitations may not apply to you."
+                        ),
+                        _react2.default.createElement(
+                          "li",
+                          null,
+                          "IN NO EVENT SHALL THE AGGREGATE LIABILITY OF BAS FOR ANY AND ALL DAMAGES ARISING UNDER THESE TERMS OR OUT OF YOUR USE OF, OR INABILITY TO USE, THE SITE EXCEED THE TOTAL AMOUNT OF US$1,000."
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "14. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Indemnity."
+                      ),
+                      "You agree to defend, indemnify and hold harmless BAS and our affiliates, and our respective officers, directors, employees and agents, from and against any and all claims, damages, obligations, losses, liabilities, costs and expenses (including but not limited to attorney's fees) arising from: (i) your use of, or inability to use, the Site; (ii) your User Submissions; (iii) your interaction with any Site user; or (iv) your violation of these Terms."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "15. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Term and Termination."
+                      ),
+                      " These Terms are effective until terminated by BAS or you. BAS, in its sole discretion, has the right to terminate these Terms and/or your access to the Site, or any part thereof, immediately at any time and with or without cause (including, without any limitation, for a breach of these Terms).BAS shall not be liable to you or any third party for termination of the Site, or any part thereof. If you object to any term or condition of these Terms, or any subsequent modifications thereto, or become dissatisfied with the Site in any way, your only recourse is to immediately discontinue use of the Site. Upon termination of these Terms, you shall cease all use of the Site. This Section \u200E15and Sections \u200E5 (Intellectual Property Rights), \u200E7.3 (License to User Submissions), \u200E11(Privacy), \u200E12(Warranty Disclaimers), \u200E13(Limitation of Liability), \u200E14(Indemnity), and \u200E16(Independent Contractors) to \u200E18(General) shall survive termination of these Terms."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "16. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Independent Contractors."
+                      ),
+                      " You and BAS are independent contractors. Nothing in these Terms creates a partnership, joint venture, agency, or employment relationship between you and BAS. You must not under any circumstances make, or undertake, any warranties, representations, commitments or obligations on behalf of BAS."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "17. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "Assignment."
+                      ),
+                      " These Terms, and any rights and licenses granted hereunder, may not be transferred or assigned by you but may be assigned by BAS without restriction or notification to you."
+                    ),
+                    _react2.default.createElement(
+                      "p",
+                      { style: { marginTop: '20px' } },
+                      "18. ",
+                      _react2.default.createElement(
+                        "b",
+                        null,
+                        "General."
+                      ),
+                      " BAS reserves the right to discontinue or modify any aspect of the Site at any time. These Terms and the relationship between you and BAS shall be governed by and construed in accordance with the laws of the State of Israel, without regard to its principles of conflict of laws. You agree to submit to the personal and exclusive jurisdiction of the courts located in Tel Aviv-Jaffa and waive any jurisdictional, venue, or inconvenient forum objections to such courts, provided that BAS may seek injunctive relief in any court of competent jurisdiction. These Terms shall constitute the entire agreement between you and BAS concerning the Site. If any provision of these Terms is deemed invalid by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of these Terms, which shall remain in full force and effect. No waiver of any term of these Terms shall be deemed a further or continuing waiver of such term or any other term, and a party's failure to assert any right or provision under these Terms shall not constitute a waiver of such right or provision. YOU AGREE THAT ANY CAUSE OF ACTION THAT YOU MAY HAVE ARISING OUT OF OR RELATED TO THE SITE MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED."
                     )
                   )
                 )
