@@ -6,7 +6,7 @@ class Banner extends Component {
       <section className="banner" style={{height:'290px'}}>
         <div className="container">
           <div className="banner-content">
-            <h1>Review of TotalAV.com </h1>
+            <h1>Review of {this.props.data.name}</h1>
           </div>
 
           <div className="shield">

@@ -4,17 +4,31 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Banner from './Banner.jsx';
 import Content from './Content.jsx';
 
+require('./Data.js')
+
 class Review extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data:[],
+    }
+  }
   componentDidMount() {
-    document.title = "Review of TotalAV.com";
+    var app = this.props.match.params.app;
+    var data = null;
+    window.data.forEach((e)=>{
+      if(e.url == app) data=e
+    });
+    this.setState({data:data})
+    document.title = "Review of " + data.name;
     $(window).scrollTop(0);
   }
   render() {
     return(
       <div>
-        <Banner/>
+        <Banner data={this.state.data}/>
         <main>
-          <Content/>
+          <Content data={this.state.data}/>
         </main>
       </div>
     )
