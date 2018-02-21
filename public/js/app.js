@@ -15542,6 +15542,10 @@ var _Content = __webpack_require__(82);
 
 var _Content2 = _interopRequireDefault(_Content);
 
+var _Data = __webpack_require__(84);
+
+var _Data2 = _interopRequireDefault(_Data);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -15549,8 +15553,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-__webpack_require__(84);
 
 var Review = function (_Component) {
   _inherits(Review, _Component);
@@ -15571,7 +15573,7 @@ var Review = function (_Component) {
     value: function componentDidMount() {
       var app = this.props.match.params.app;
       var data = null;
-      window.data.forEach(function (e) {
+      _Data2.default.forEach(function (e) {
         if (e.url == app) data = e;
       });
       this.setState({ data: data });
@@ -16497,7 +16499,10 @@ exports.default = Feature;
 "use strict";
 
 
-window.data = [{
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var data = [{
   name: 'TotalAV',
   url: 'totalav',
   description: 'TotalAV.com has developed a software with a user-friendly design along with an outstanding feature list, which is the reason why it has been considered as a powerful contender on the antivirus market for the past few years. They offer important features that cater the modern and digital needs of people, such as providing protection for different devices, which include tablets and smartphones.',
@@ -16685,6 +16690,8 @@ window.data = [{
     description: "As explained above, the basic entry level suites come with limited features, but for as little as $5 more you can get the full featured suite, which is packed full of handy tools. So both Premium and Maximum Security 10 have the same 19 features, but what do these include? Our favourites are; ransomware protection, a secure browser for internet banking, system optimization and they’ve also added in the ability to scan OneDrive for any nasty files. Obviously Trend Micro have a lot more features, along with the standard ones you’d expect with a security package."
   }]
 }];
+
+exports.default = data;
 
 /***/ }),
 /* 85 */

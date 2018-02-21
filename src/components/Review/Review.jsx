@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Banner from './Banner.jsx';
 import Content from './Content.jsx';
 
-require('./Data.js')
+import Data from './Data.js';
 
 class Review extends Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class Review extends Component {
   componentDidMount() {
     var app = this.props.match.params.app;
     var data = null;
-    window.data.forEach((e)=>{
+    Data.forEach((e)=>{
       if(e.url == app) data=e
     });
     this.setState({data:data})

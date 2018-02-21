@@ -1,4 +1,4 @@
-window.data = [
+var data = [
   {
     name: 'TotalAV',
     url: 'totalav',
@@ -246,3 +246,6 @@ window.data = [
     ]
   }
 ]
+
+
+export default data;
