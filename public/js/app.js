@@ -75,7 +75,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   module.exports = __webpack_require__(37);
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 1 */
@@ -135,10 +135,90 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 module.exports = warning;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.withRouter = exports.matchPath = exports.Switch = exports.StaticRouter = exports.Router = exports.Route = exports.Redirect = exports.Prompt = exports.NavLink = exports.MemoryRouter = exports.Link = exports.HashRouter = exports.BrowserRouter = undefined;
+
+var _BrowserRouter2 = __webpack_require__(48);
+
+var _BrowserRouter3 = _interopRequireDefault(_BrowserRouter2);
+
+var _HashRouter2 = __webpack_require__(52);
+
+var _HashRouter3 = _interopRequireDefault(_HashRouter2);
+
+var _Link2 = __webpack_require__(31);
+
+var _Link3 = _interopRequireDefault(_Link2);
+
+var _MemoryRouter2 = __webpack_require__(54);
+
+var _MemoryRouter3 = _interopRequireDefault(_MemoryRouter2);
+
+var _NavLink2 = __webpack_require__(57);
+
+var _NavLink3 = _interopRequireDefault(_NavLink2);
+
+var _Prompt2 = __webpack_require__(60);
+
+var _Prompt3 = _interopRequireDefault(_Prompt2);
+
+var _Redirect2 = __webpack_require__(62);
+
+var _Redirect3 = _interopRequireDefault(_Redirect2);
+
+var _Route2 = __webpack_require__(32);
+
+var _Route3 = _interopRequireDefault(_Route2);
+
+var _Router2 = __webpack_require__(18);
+
+var _Router3 = _interopRequireDefault(_Router2);
+
+var _StaticRouter2 = __webpack_require__(68);
+
+var _StaticRouter3 = _interopRequireDefault(_StaticRouter2);
+
+var _Switch2 = __webpack_require__(70);
+
+var _Switch3 = _interopRequireDefault(_Switch2);
+
+var _matchPath2 = __webpack_require__(72);
+
+var _matchPath3 = _interopRequireDefault(_matchPath2);
+
+var _withRouter2 = __webpack_require__(73);
+
+var _withRouter3 = _interopRequireDefault(_withRouter2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.BrowserRouter = _BrowserRouter3.default;
+exports.HashRouter = _HashRouter3.default;
+exports.Link = _Link3.default;
+exports.MemoryRouter = _MemoryRouter3.default;
+exports.NavLink = _NavLink3.default;
+exports.Prompt = _Prompt3.default;
+exports.Redirect = _Redirect3.default;
+exports.Route = _Route3.default;
+exports.Router = _Router3.default;
+exports.StaticRouter = _StaticRouter3.default;
+exports.Switch = _Switch3.default;
+exports.matchPath = _matchPath3.default;
+exports.withRouter = _withRouter3.default;
+
+/***/ }),
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -331,7 +411,7 @@ process.umask = function () {
 };
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -362,87 +442,7 @@ if (process.env.NODE_ENV !== 'production') {
   // http://fb.me/prop-types-in-prod
   module.exports = __webpack_require__(50)();
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.withRouter = exports.matchPath = exports.Switch = exports.StaticRouter = exports.Router = exports.Route = exports.Redirect = exports.Prompt = exports.NavLink = exports.MemoryRouter = exports.Link = exports.HashRouter = exports.BrowserRouter = undefined;
-
-var _BrowserRouter2 = __webpack_require__(48);
-
-var _BrowserRouter3 = _interopRequireDefault(_BrowserRouter2);
-
-var _HashRouter2 = __webpack_require__(52);
-
-var _HashRouter3 = _interopRequireDefault(_HashRouter2);
-
-var _Link2 = __webpack_require__(31);
-
-var _Link3 = _interopRequireDefault(_Link2);
-
-var _MemoryRouter2 = __webpack_require__(54);
-
-var _MemoryRouter3 = _interopRequireDefault(_MemoryRouter2);
-
-var _NavLink2 = __webpack_require__(57);
-
-var _NavLink3 = _interopRequireDefault(_NavLink2);
-
-var _Prompt2 = __webpack_require__(60);
-
-var _Prompt3 = _interopRequireDefault(_Prompt2);
-
-var _Redirect2 = __webpack_require__(62);
-
-var _Redirect3 = _interopRequireDefault(_Redirect2);
-
-var _Route2 = __webpack_require__(32);
-
-var _Route3 = _interopRequireDefault(_Route2);
-
-var _Router2 = __webpack_require__(18);
-
-var _Router3 = _interopRequireDefault(_Router2);
-
-var _StaticRouter2 = __webpack_require__(68);
-
-var _StaticRouter3 = _interopRequireDefault(_StaticRouter2);
-
-var _Switch2 = __webpack_require__(70);
-
-var _Switch3 = _interopRequireDefault(_Switch2);
-
-var _matchPath2 = __webpack_require__(72);
-
-var _matchPath3 = _interopRequireDefault(_matchPath2);
-
-var _withRouter2 = __webpack_require__(73);
-
-var _withRouter3 = _interopRequireDefault(_withRouter2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.BrowserRouter = _BrowserRouter3.default;
-exports.HashRouter = _HashRouter3.default;
-exports.Link = _Link3.default;
-exports.MemoryRouter = _MemoryRouter3.default;
-exports.NavLink = _NavLink3.default;
-exports.Prompt = _Prompt3.default;
-exports.Redirect = _Redirect3.default;
-exports.Route = _Route3.default;
-exports.Router = _Router3.default;
-exports.StaticRouter = _StaticRouter3.default;
-exports.Switch = _Switch3.default;
-exports.matchPath = _matchPath3.default;
-exports.withRouter = _withRouter3.default;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 5 */
@@ -497,7 +497,7 @@ var invariant = function invariant(condition, format, a, b, c, d, e, f) {
 };
 
 module.exports = invariant;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 6 */
@@ -695,7 +695,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 }
 
 module.exports = invariant;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 9 */
@@ -853,7 +853,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 module.exports = emptyObject;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 12 */
@@ -922,7 +922,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 module.exports = warning;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 13 */
@@ -1084,7 +1084,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 }
 
 module.exports = checkPropTypes;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 15 */
@@ -1335,7 +1335,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -1756,7 +1756,7 @@ var EventListener = {
 };
 
 module.exports = EventListener;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 24 */
@@ -2162,7 +2162,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -2333,7 +2333,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -2575,11 +2575,11 @@ var _App2 = _interopRequireDefault(_App);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-window.$ = window.jQuery = __webpack_require__(101);
-__webpack_require__(103);
+window.$ = window.jQuery = __webpack_require__(108);
+__webpack_require__(110);
 // require('./scripts/common.js');
 // require('./scripts/respond.min.js');
-__webpack_require__(104);
+__webpack_require__(111);
 
 // import styles from './scss/app.scss';
 
@@ -4072,7 +4072,7 @@ if (process.env.NODE_ENV !== "production") {
     module.exports = react;
   })();
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 38 */
@@ -4114,7 +4114,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   module.exports = __webpack_require__(42);
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 39 */
@@ -9154,7 +9154,7 @@ if(navigator.userAgent.indexOf('Chrome')>-1&&navigator.userAgent.indexOf('Edge')
 if(/^(https?|file):$/.test(protocol)){console.info('%cDownload the React DevTools '+'for a better development experience: '+'https://fb.me/react-devtools'+(protocol==='file:'?'\nYou might need to use a local HTTP server (instead of file://): '+'https://fb.me/react-devtools-faq':''),'font-weight:bold');}}}}var ReactDOM$2=Object.freeze({default:ReactDOM});var ReactDOM$3=ReactDOM$2&&ReactDOM||ReactDOM$2;// TODO: decide on the top-level export form.
 // This is hacky but makes it work with both Rollup and Jest.
 var reactDom=ReactDOM$3['default']?ReactDOM$3['default']:ReactDOM$3;module.exports=reactDom;})();}
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 43 */
@@ -9329,7 +9329,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
 
 var _Header = __webpack_require__(76);
 
@@ -9363,11 +9363,15 @@ var _Terms = __webpack_require__(97);
 
 var _Terms2 = _interopRequireDefault(_Terms);
 
-var _Blog = __webpack_require__(105);
+var _Blog = __webpack_require__(100);
 
 var _Blog2 = _interopRequireDefault(_Blog);
 
-var _Footer = __webpack_require__(100);
+var _BlogDetails = __webpack_require__(103);
+
+var _BlogDetails2 = _interopRequireDefault(_BlogDetails);
+
+var _Footer = __webpack_require__(107);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -9406,6 +9410,7 @@ var App = function (_Component) {
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/privacy-policy', component: _PrivacyPolicy2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/terms-and-conditions', component: _Terms2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/blog', component: _Blog2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/blog/:url', component: _BlogDetails2.default }),
           _react2.default.createElement(_Footer2.default, null)
         )
       );
@@ -9438,7 +9443,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -10033,7 +10038,7 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
 
   return ReactPropTypes;
 };
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
 /* 50 */
@@ -10441,7 +10446,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -10891,7 +10896,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -11171,7 +11176,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -11748,7 +11753,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -11881,7 +11886,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -12955,7 +12960,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13185,7 +13190,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13341,7 +13346,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(3);
+var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13498,7 +13503,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13652,7 +13657,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
 
 var _Banner = __webpack_require__(78);
 
@@ -13863,7 +13868,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -15532,7 +15537,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
 
 var _Banner = __webpack_require__(81);
 
@@ -16710,7 +16715,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
 
 var _Banner = __webpack_require__(86);
 
@@ -17013,7 +17018,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
 
 var _Banner = __webpack_require__(89);
 
@@ -17338,7 +17343,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
 
 var _Banner = __webpack_require__(92);
 
@@ -17692,7 +17697,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
 
 var _Banner = __webpack_require__(95);
 
@@ -18036,7 +18041,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
 
 var _Banner = __webpack_require__(98);
 
@@ -18662,7 +18667,938 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(4);
+var _reactRouterDom = __webpack_require__(2);
+
+var _Banner = __webpack_require__(101);
+
+var _Banner2 = _interopRequireDefault(_Banner);
+
+var _Content = __webpack_require__(102);
+
+var _Content2 = _interopRequireDefault(_Content);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Blog = function (_Component) {
+  _inherits(Blog, _Component);
+
+  function Blog() {
+    _classCallCheck(this, Blog);
+
+    return _possibleConstructorReturn(this, (Blog.__proto__ || Object.getPrototypeOf(Blog)).apply(this, arguments));
+  }
+
+  _createClass(Blog, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "Blog";
+      $(window).scrollTop(0);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_Banner2.default, null),
+        _react2.default.createElement(
+          'main',
+          null,
+          _react2.default.createElement(_Content2.default, null)
+        )
+      );
+    }
+  }]);
+
+  return Blog;
+}(_react.Component);
+
+exports.default = Blog;
+
+/***/ }),
+/* 101 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Banner = function (_Component) {
+  _inherits(Banner, _Component);
+
+  function Banner() {
+    _classCallCheck(this, Banner);
+
+    return _possibleConstructorReturn(this, (Banner.__proto__ || Object.getPrototypeOf(Banner)).apply(this, arguments));
+  }
+
+  _createClass(Banner, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'section',
+        { className: 'banner', style: { height: '290px' } },
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'banner-content' },
+            _react2.default.createElement(
+              'h1',
+              null,
+              'Blog'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'shield' },
+            _react2.default.createElement('img', { src: '/images/shield.png', alt: '' })
+          )
+        )
+      );
+    }
+  }]);
+
+  return Banner;
+}(_react.Component);
+
+exports.default = Banner;
+
+/***/ }),
+/* 102 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Content = function (_Component) {
+  _inherits(Content, _Component);
+
+  function Content() {
+    _classCallCheck(this, Content);
+
+    return _possibleConstructorReturn(this, (Content.__proto__ || Object.getPrototypeOf(Content)).apply(this, arguments));
+  }
+
+  _createClass(Content, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'section',
+        { className: 'content-part' },
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-md-12 col-sm-12 col-xs-12 padd-r-15' },
+            _react2.default.createElement(
+              'div',
+              { className: 'row' },
+              _react2.default.createElement(
+                'form',
+                { className: 'search-form fromm' },
+                _react2.default.createElement(
+                  'div',
+                  { className: 'col-md-3 col-sm-12 ft' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'blogs-post' },
+                    _react2.default.createElement('img', { src: '/images/ddd.jpg', style: { width: '100%' } }),
+                    _react2.default.createElement(
+                      'div',
+                      { className: '' },
+                      _react2.default.createElement(
+                        _reactRouterDom.Link,
+                        { to: '/blog/what-is-adware' },
+                        _react2.default.createElement(
+                          'h3',
+                          null,
+                          'What Is Adware? '
+                        )
+                      ),
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'Almost everyone deals with Adware now. Adware is a bit typical malware that... '
+                      )
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'ruus' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'cur', style: { borderRight: '1px solid' } },
+                        _react2.default.createElement(
+                          'h4',
+                          null,
+                          '22 February 2018'
+                        ),
+                        ' '
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'cur' },
+                        _react2.default.createElement(
+                          'h4',
+                          null,
+                          '3 mints read'
+                        ),
+                        ' '
+                      ),
+                      _react2.default.createElement('div', { style: { clear: 'both' } })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'col-md-3 col-sm-12 ft' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'blogs-post' },
+                    _react2.default.createElement('img', { src: '/images/ddd.jpg', style: { width: '100%' } }),
+                    _react2.default.createElement(
+                      'div',
+                      { className: '' },
+                      _react2.default.createElement(
+                        _reactRouterDom.Link,
+                        { to: '/blog/what-is-phishing' },
+                        _react2.default.createElement(
+                          'h3',
+                          null,
+                          'What Is Phishing?'
+                        )
+                      ),
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'Today\u2019s world is surrounded by maliciouscybercrimes. Phishing is one of them ....'
+                      )
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'ruus' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'cur', style: { borderRight: '1px solid' } },
+                        _react2.default.createElement(
+                          'h4',
+                          null,
+                          '22 February 2018'
+                        ),
+                        ' '
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'cur' },
+                        _react2.default.createElement(
+                          'h4',
+                          null,
+                          '3 mints read'
+                        )
+                      ),
+                      _react2.default.createElement('div', { style: { clear: 'both' } })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'col-md-3 col-sm-12 ft' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'blogs-post' },
+                    _react2.default.createElement('img', { src: '/images/ddd.jpg', style: { width: '100%' } }),
+                    _react2.default.createElement(
+                      'div',
+                      { className: '' },
+                      _react2.default.createElement(
+                        _reactRouterDom.Link,
+                        { to: '/blog/how-dangerous-is-the-web-today' },
+                        _react2.default.createElement(
+                          'h3',
+                          null,
+                          'How Dangerous Is the Web Today'
+                        )
+                      ),
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'There is no doubt that internet is a wonderful tool for many ....  ',
+                        _react2.default.createElement('br', null)
+                      )
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'ruus' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'cur', style: { borderRight: '1px solid' } },
+                        _react2.default.createElement(
+                          'h4',
+                          null,
+                          '22 February 2018'
+                        ),
+                        ' '
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'cur' },
+                        _react2.default.createElement(
+                          'h4',
+                          null,
+                          '3 mints read'
+                        ),
+                        ' '
+                      ),
+                      _react2.default.createElement('div', { style: { clear: 'both' } })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'col-md-3 col-sm-12 ft' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'blogs-post' },
+                    _react2.default.createElement('img', { src: '/images/ddd.jpg', style: { width: '100%' } }),
+                    _react2.default.createElement(
+                      'div',
+                      { className: '' },
+                      _react2.default.createElement(
+                        _reactRouterDom.Link,
+                        { to: '/blog/what-is-a-trojan-horse' },
+                        _react2.default.createElement(
+                          'h3',
+                          null,
+                          'What is a Trojan Horse?'
+                        )
+                      ),
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'There are so many threats lurking around the internet nowadays. If you are not...  '
+                      )
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'ruus' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'cur', style: { borderRight: '1px solid' } },
+                        _react2.default.createElement(
+                          'h4',
+                          null,
+                          '22 February 2018'
+                        ),
+                        ' '
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'cur' },
+                        _react2.default.createElement(
+                          'h4',
+                          null,
+                          '3 mints read'
+                        ),
+                        ' '
+                      ),
+                      _react2.default.createElement('div', { style: { clear: 'both' } })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'col-md-3 col-sm-12 ft' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'blogs-post' },
+                    _react2.default.createElement('img', { src: '/images/ddd.jpg', style: { width: '100%' } }),
+                    _react2.default.createElement(
+                      'div',
+                      { className: '' },
+                      _react2.default.createElement(
+                        _reactRouterDom.Link,
+                        { to: '/blog/how-important-is-cybersecurity-in-this-day-and-age' },
+                        _react2.default.createElement(
+                          'h3',
+                          null,
+                          'How Important Is Cybersecurity In This Day And Age? '
+                        )
+                      ),
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'The security or protections of computer systems from any kind.... '
+                      )
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'ruus' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'cur', style: { borderRight: '1px solid' } },
+                        _react2.default.createElement(
+                          'h4',
+                          null,
+                          '22 February 2018'
+                        ),
+                        ' '
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'cur' },
+                        _react2.default.createElement(
+                          'h4',
+                          null,
+                          '3 mints read'
+                        ),
+                        ' '
+                      ),
+                      _react2.default.createElement('div', { style: { clear: 'both' } })
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Content;
+}(_react.Component);
+
+exports.default = Content;
+
+/***/ }),
+/* 103 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(2);
+
+var _Banner = __webpack_require__(104);
+
+var _Banner2 = _interopRequireDefault(_Banner);
+
+var _Content = __webpack_require__(105);
+
+var _Content2 = _interopRequireDefault(_Content);
+
+var _Data = __webpack_require__(106);
+
+var _Data2 = _interopRequireDefault(_Data);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var BlogDetails = function (_Component) {
+  _inherits(BlogDetails, _Component);
+
+  function BlogDetails(props) {
+    _classCallCheck(this, BlogDetails);
+
+    var _this = _possibleConstructorReturn(this, (BlogDetails.__proto__ || Object.getPrototypeOf(BlogDetails)).call(this, props));
+
+    _this.state = {
+      data: []
+    };
+    return _this;
+  }
+
+  _createClass(BlogDetails, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var url = this.props.match.params.url;
+      var data = null;
+      _Data2.default.forEach(function (e) {
+        if (e.url == url) data = e;
+      });
+      this.setState({ data: data });
+      document.title = data.name;
+      $(window).scrollTop(0);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_Banner2.default, { data: this.state.data }),
+        _react2.default.createElement(
+          'main',
+          null,
+          _react2.default.createElement(_Content2.default, { data: this.state.data })
+        )
+      );
+    }
+  }]);
+
+  return BlogDetails;
+}(_react.Component);
+
+exports.default = BlogDetails;
+
+/***/ }),
+/* 104 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Banner = function (_Component) {
+  _inherits(Banner, _Component);
+
+  function Banner() {
+    _classCallCheck(this, Banner);
+
+    return _possibleConstructorReturn(this, (Banner.__proto__ || Object.getPrototypeOf(Banner)).apply(this, arguments));
+  }
+
+  _createClass(Banner, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'section',
+        { className: 'banner', style: { height: '290px' } },
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'banner-content' },
+            _react2.default.createElement(
+              'h1',
+              null,
+              this.props.data.name
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'shield' },
+            _react2.default.createElement('img', { src: '/images/shield.png', alt: '' })
+          )
+        )
+      );
+    }
+  }]);
+
+  return Banner;
+}(_react.Component);
+
+exports.default = Banner;
+
+/***/ }),
+/* 105 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Content = function (_Component) {
+  _inherits(Content, _Component);
+
+  function Content() {
+    _classCallCheck(this, Content);
+
+    return _possibleConstructorReturn(this, (Content.__proto__ || Object.getPrototypeOf(Content)).apply(this, arguments));
+  }
+
+  _createClass(Content, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "section",
+        { className: "content-part" },
+        _react2.default.createElement(
+          "div",
+          { className: "container" },
+          _react2.default.createElement(
+            "div",
+            { className: "col-md-9 col-sm-12 col-xs-12 padd-r-15" },
+            _react2.default.createElement(
+              "div",
+              { className: "row" },
+              _react2.default.createElement(
+                "form",
+                { className: "search-form" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-md-12 col-sm-12" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blog-img" },
+                    _react2.default.createElement("img", { src: "/images/blog-img.jpg", alt: "" }),
+                    _react2.default.createElement("div", { id: "blog-description", dangerouslySetInnerHTML: { __html: this.props.data.description } }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "bott", style: { float: 'left', marginLeft: '9px', marginBottom: '26px' } },
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button bott", className: "btn visit-btn" },
+                        "<< PREVIOUS "
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "bott", style: { marginLeft: '9px', float: 'right', marginBottom: '26px' } },
+                      _react2.default.createElement(
+                        "button",
+                        { type: "button bott", className: "btn visit-btn" },
+                        "  NEXT >>"
+                      )
+                    ),
+                    _react2.default.createElement("div", { style: { clear: 'both' } })
+                  )
+                )
+              )
+            ),
+            _react2.default.createElement("hr", null),
+            _react2.default.createElement(
+              "div",
+              { className: "title mm" },
+              _react2.default.createElement(
+                "h2",
+                null,
+                "Leave a reply"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Your email address will not be published. Required fields are marked *"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "frm" },
+              _react2.default.createElement(
+                "div",
+                { className: "half" },
+                _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "First Name" })
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "half" },
+                _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Last Name" })
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "half" },
+                _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Email Address" })
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "half" },
+                _react2.default.createElement("input", { type: "text", name: "", className: "fom", placeholder: "Your Website" })
+              ),
+              _react2.default.createElement("textarea", { name: "", className: "jom", placeholder: "Your Comments" })
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "bott", style: { marginLeft: '9px', marginBottom: '26px' } },
+              _react2.default.createElement(
+                "button",
+                { type: "button bott", className: "btn visit-btn" },
+                "POST COMMENT"
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "col-md-3 col-sm-12 col-xs-12" },
+            _react2.default.createElement(
+              "div",
+              { className: "row" },
+              _react2.default.createElement(
+                "div",
+                { className: "side-bar" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "side-bar-clm blugh" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "inner-content-b" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "blog-t" },
+                      _react2.default.createElement(
+                        "h3",
+                        null,
+                        "Catergories"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "blog-s" },
+                      _react2.default.createElement(
+                        "h4",
+                        null,
+                        "Lorium Ipsium"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "blog-s" },
+                      _react2.default.createElement(
+                        "h4",
+                        null,
+                        "Lorium Ipsium"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "blog-s" },
+                      _react2.default.createElement(
+                        "h4",
+                        null,
+                        "Lorium Ipsium"
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "blog-s" },
+                      _react2.default.createElement(
+                        "h4",
+                        null,
+                        "Lorium Ipsium"
+                      )
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "side-bar-clm blugh" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "inner-content-b" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blog-t" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      "Archieves"
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blog-s" },
+                    _react2.default.createElement(
+                      "h4",
+                      null,
+                      "January 2018"
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blog-s" },
+                    _react2.default.createElement(
+                      "h4",
+                      null,
+                      "January 2018"
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "side-bar-clm blugh" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "inner-content-b" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blog-t" },
+                    _react2.default.createElement(
+                      "h3",
+                      null,
+                      "Social Links"
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blog-social-icons" },
+                    _react2.default.createElement(
+                      "a",
+                      { href: "#" },
+                      _react2.default.createElement("img", { src: "/images/f1.png" })
+                    ),
+                    _react2.default.createElement(
+                      "a",
+                      { href: "#" },
+                      _react2.default.createElement("img", { src: "/images/f2.png" })
+                    ),
+                    _react2.default.createElement(
+                      "a",
+                      { href: "#" },
+                      _react2.default.createElement("img", { src: "/images/f3.png" })
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Content;
+}(_react.Component);
+
+exports.default = Content;
+
+/***/ }),
+/* 106 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var data = [{
+  name: 'What Is Adware?',
+  url: 'what-is-adware',
+  description: '<h3>What Is Adware?</h3><p>Almost everyone deals with Adware now. Adware is a bit typical malware that keeps popping up every now and then. In simple words, Adware or advertising malware pops up undesired advertisement.<p>\nIt may seem like not that harmful but it can do an awful lot of damage to your system. In spite of being irritating, it weakens your security system and tracks your activities on the internet. This security breach further results in other malware attacks.\n</p><h3>What does Adware do?</h3><p>Adware can act differently on computers. They are not as simple as they may seem. There are numerous ways an adware can take advantage of your system:</p>\n<p><b>\u2022\tPop-Ups:</b> Pop-Ups are really annoying and these are the typical form of an adware. If your computer is affected by adware you will get pop-ups more frequently.<p>\n\u2022\t<b>Spying On Your System:</b>It also excels at spying on your system. Tracking all your online activity it seems to show you advertisement relevant to your searches.<p>\n\u2022\t<b>A Mole in A Protected Connection:</b> Some Adware directs all your connections through their server. This includes protected connection as well. So, if you are connecting with your bank accounts all of the data might be in their system.<p>\n\u2022<b>\tMakes Your Computer Run Slow:</b> They take up a lot of CPU spaces which ultimately slows down your PC.<p>\u2022\t<b>Sucks up Your Internet Data:</b>Adware sucks up your data every time they download advertisement or load another pop-up page. This can really affect your browsers too!\n</p><h3>How Can You Get Rid of It?</h3><p>A solution to this problem would be to have an adware removal tool or anti-malware tool installed on your system. It will provide the necessary protection you need.<p>\nYou can also try out blocking scripts but it can also disable your web surfing as well. The best way would be to be careful when you download a file from unknown locations or avoid malicious websites.\n</p>'
+}, {
+  name: 'What Is Phishing?',
+  url: 'what-is-phishing',
+  description: '<h3>What Is Phishing?</h3> <p>Today\u2019s world is surrounded by maliciouscybercrimes. Phishing is one of them. In phishing, someone or some group targets people through phone calls, text messages or email disguising as a genuine institution.<p>Attackers use trustworthy electronic communication to attract individualsfor providing their important personal data such as credit card details, username,and passwords. They then use these pieces of information to steal identity or money or any valuable property. </p><h3>Types of phishing</h3><p><b>\u2022Spear phishing</b><p>When specific companies or individuals become the direct target of phishing, they are called spear phishing. This type of phishing is most successful one on theinternet nowadays, around 91% of attacks are Spear phishing. <p> <b>\u2022Clone phishing</b><p>Sometimes, some previously delivered legitimate emails contain any link or attachment which has its content and recipient address. Attackers hack them and use them to create cloned or almost identical email. Then they replaced that link or attachment with malevolent version and send it from such an email address which is spoofed to believe as theoriginal. Now, this type of phishing is known as clone phishing. <b>\u2022Whaling</b><p>Another type of phishing is whaling. Senior executives and high-profile persons within businesses are the targets for this type of phishing attacks. <p>Most of the contents are written about any serious matter such as customer complaint or any legal issue.All of these are masqueraded so well that any superior person of a company is mentally forced to click those links or attachments. <p>Social engineering techniques are blessings of modern science. But phishing is a ridiculous example of misusing these techniques to deceive people.<p> Attackers use so many methods for phishing such as link manipulation, website forgery, covert redirect, phone phishing and so on.Public awareness, user training, technical security measures and legislation can help you to deal with the growing number of phishing. </p>'
+}, {
+  name: 'What is a Trojan Horse?',
+  url: 'what-is-a-trojan-horse',
+  description: '<h3>What is a Trojan Horse?</h3> <p>There are so many threats lurking around the internet nowadays. If you are not careful enough, you too can be a victim of this dreadful situation. <p>Trojan Horse is just another one of those threats that can truly harm your personal life along with your professional one. A Trojan Horse is a type of malware that comes as a normal file but steals your data once it gets ahold of your computer. <p>The scariest part is that they can go unnoticed for a really long time. This unique malware hides behind an ordinary file or program and creates holes in your security system leaking all of your precious data.</p><h3>How Do They Affect Your Computer?</h3><p>You won\u2019t believe how a Trojan Horse can affect your computer. They can do some serious changes to your system: <p><p><b>\u2022Create Loopholes In Your Security:</b> Trojans mainly create a backdoor for any hacker or other malware to get in. Your security system would be dead in a few days.><p><b>\u2022Steal Your Information:</b> They are mainly one type of Spyware. These snoop into your personal data like credit card info or account password and send them to a third party.<p> <b>\u2022Takes over The PC:</b> Sometimes cybercriminals use them to freeze your PC and shut you out entirely. <b>\u2022Sends Email Or SMS:</b> Mobile devices are also affected by Trojans. Criminals usually send costly messages to specific numbers and hack out the money. <h3>Can You Know Which Files Are Trojan?</h3><p>They can look similar to any type of files. They can be mp3 files or PDF files or any other program. The worst part is that they would seem harmless and you won\u2019t even notice anything when you install them or download them.<p>Some Trojans go to a whole another level and trick you into downloading them. Trojans are cyber criminal\u2019s number one choice. That\u2019s why you should always be careful or have a working Antivirus program on your PC. </p></p>'
+}, {
+  name: 'How Dangerous Is the Web Today',
+  url: 'how-dangerous-is-the-web-today',
+  description: '<h3>How Dangerous Is the Web Today</h3> <p>There is no doubt that internet is a wonderful tool for many of us. But from time to time we end up becoming a victim of the cyber-crimes. According to recent statistics over $2 trillion will get in the hands of cybercriminals by 2019. <p>Not even that, last year over 15.4 million people reported a case of identity theft. That\u2019s a huge number to even begin with! So, even if you are a tech savvy you can still fall prey to these predators. </p><h3>What Are The Threats?</h3><p><b>\u2022Flash Files: </b> Adobe flash\u2019s flash cookies can track your process on the web just like other cookies. The worst part is that they remain even if you delete all your browsers cookies.<p> <b>\u2022Shortened Links: </b> These are mainly Twitter links that scammers use to lure away a user to any malicious website. They can also be a Trojan Horse in disguise. <p><b>\u2022Email Scammers: </b> One of the dangerous threats on the web. Scammers send users infected emails or attachments that can lead to information theft.<p><b>\u2022Trojan Horse: </b> Sometimes different sites will tell you to download codec files of videos. Normally, thesesoftwares are legitimate for some reputed video sites. But not all of them are genuine. They can be Trojan Horse.<p> <b>\u2022Poisoned Search Engines: </b> Poisonous search engines will track what you are searching and will get you pages or sites full of malevolent contents. Attackers make such kind of malware sites with high rank so that the sites have a higher ranking.<p><b>\u2022Infected PDFs: </b>Attackers always find new ways to attack you. They can also attack you through pdf files including malevolent contents.<p><b>\u2022Drive-By Downloads: </b>Some malware will get downloaded just when you click a link or open a site. These downloaded files are mostly malware.<p><b>\u2022Scam Antiviruses: </b>Sometimes you may get anti-virus suggestions on theinternet,which are actually not the real software. But you can mix them up with actual anti-virus.This fake antivirus will damage your computer instead of protecting it. <p>All of these threats make our digital life a bit difficult. And, that\u2019s why the perfect solution for this would be cyber security. </p>'
+}, {
+  name: 'How Important Is Cybersecurity In This Day And Age?',
+  url: 'how-important-is-cybersecurity-in-this-day-and-age',
+  description: '<h3>How Important Is Cybersecurity In This Day And Age?</h3> <p>The security or protections of computer systems from any kind of damage or theft to their information, software or hardware and also from misleading of the provided services refer to cybersecurity.<p> Cybersecurityprovides all kind of physical protection to the hardware system as well as to the network system, leaking data, hacking information and recoding the software. So, none can be tricked anymore through cybercrime.</p><h3>Cybercrime Is a Threat to Everyone</h3><p>We are surrounded by computer systems. Cyber system has touched every aspect of our life. Schools, colleges, universities, industries, small or large companies, shops, bank, government; all of them are computer-based. <p>A large portion of our life is stuck on the internet. It has become the most important part of our life. We all are connected to the cyber system somehow. And the attackers are taking advantages of our cyber system based life. </p>So, basically, without cybersecurity no one is safe and no information is safe. <p><b>Why Do You Need Cybersecurity?</b><p>Cyber attackers keep attacking us through messages, phone calls or emails with their malicious contents, links, web pages or images. They can attack you anytime by spoofing, phishing, eavesdropping, tampering, click-jacking, and direct-accessing and so on. <p>If your cybersecurity system is not activated, your computer can be hacked any moment and all your information as well. Attackers can thieve all the information from the website of any organization. <p>Even they can hack your personal information and use your identity for doing any crime. This identity theft can cause you a lot of personal and legal problem as well. You just click on an unknown link and all your information will be hacked easily. And without cybersecurity, it is not that tough to sendyou a message or email including malevolent link or images to hack your information or destroy your cyber system or hacking all your money from the bank.<p> In this day and age, the whole world depends on the computer-based systems. From a school to a large industry, every single organization and the modern educated person is related to the cyber system. Security comes first and cybersecurity is a must. </p>'
+}];
+
+exports.default = data;
+
+/***/ }),
+/* 107 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -18821,7 +19757,7 @@ var Footer = function (_Component) {
 exports.default = Footer;
 
 /***/ }),
-/* 101 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28747,10 +29683,10 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 	return jQuery;
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(102)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(109)(module)))
 
 /***/ }),
-/* 102 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28780,7 +29716,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 103 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29370,7 +30306,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
 }(jQuery);
 
 /***/ }),
-/* 104 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30308,449 +31244,6 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         e.stopPropagation();
     });
 }(window.jQuery);
-
-/***/ }),
-/* 105 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactRouterDom = __webpack_require__(4);
-
-var _Banner = __webpack_require__(106);
-
-var _Banner2 = _interopRequireDefault(_Banner);
-
-var _Content = __webpack_require__(107);
-
-var _Content2 = _interopRequireDefault(_Content);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Blog = function (_Component) {
-  _inherits(Blog, _Component);
-
-  function Blog() {
-    _classCallCheck(this, Blog);
-
-    return _possibleConstructorReturn(this, (Blog.__proto__ || Object.getPrototypeOf(Blog)).apply(this, arguments));
-  }
-
-  _createClass(Blog, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      document.title = "Blog";
-      $(window).scrollTop(0);
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(_Banner2.default, null),
-        _react2.default.createElement(
-          'main',
-          null,
-          _react2.default.createElement(_Content2.default, null)
-        )
-      );
-    }
-  }]);
-
-  return Blog;
-}(_react.Component);
-
-exports.default = Blog;
-
-/***/ }),
-/* 106 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Banner = function (_Component) {
-  _inherits(Banner, _Component);
-
-  function Banner() {
-    _classCallCheck(this, Banner);
-
-    return _possibleConstructorReturn(this, (Banner.__proto__ || Object.getPrototypeOf(Banner)).apply(this, arguments));
-  }
-
-  _createClass(Banner, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'section',
-        { className: 'banner', style: { height: '290px' } },
-        _react2.default.createElement(
-          'div',
-          { className: 'container' },
-          _react2.default.createElement(
-            'div',
-            { className: 'banner-content' },
-            _react2.default.createElement(
-              'h1',
-              null,
-              'Blog'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'shield' },
-            _react2.default.createElement('img', { src: '/images/shield.png', alt: '' })
-          )
-        )
-      );
-    }
-  }]);
-
-  return Banner;
-}(_react.Component);
-
-exports.default = Banner;
-
-/***/ }),
-/* 107 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Content = function (_Component) {
-  _inherits(Content, _Component);
-
-  function Content() {
-    _classCallCheck(this, Content);
-
-    return _possibleConstructorReturn(this, (Content.__proto__ || Object.getPrototypeOf(Content)).apply(this, arguments));
-  }
-
-  _createClass(Content, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "section",
-        { className: "content-part" },
-        _react2.default.createElement(
-          "div",
-          { className: "container" },
-          _react2.default.createElement(
-            "div",
-            { className: "col-md-12 col-sm-12 col-xs-12 padd-r-15" },
-            _react2.default.createElement(
-              "div",
-              { className: "row" },
-              _react2.default.createElement(
-                "form",
-                { className: "search-form fromm" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-md-3 col-sm-12 ft" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "blogs-post" },
-                    _react2.default.createElement("img", { src: "/images/ddd.jpg", style: { width: '100%' } }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "" },
-                      _react2.default.createElement(
-                        "h3",
-                        null,
-                        "What Is Adware? "
-                      ),
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Almost everyone deals with Adware now. Adware is a bit typical malware that... "
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "ruus" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "cur", style: { borderRight: '1px solid' } },
-                        _react2.default.createElement(
-                          "h4",
-                          null,
-                          "22 February 2018"
-                        ),
-                        " "
-                      ),
-                      _react2.default.createElement(
-                        "div",
-                        { className: "cur" },
-                        _react2.default.createElement(
-                          "h4",
-                          null,
-                          "3 mints read"
-                        ),
-                        " "
-                      ),
-                      _react2.default.createElement("div", { style: { clear: 'both' } })
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-md-3 col-sm-12 ft" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "blogs-post" },
-                    _react2.default.createElement("img", { src: "/images/ddd.jpg", style: { width: '100%' } }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "" },
-                      _react2.default.createElement(
-                        "h3",
-                        null,
-                        "What Is Phishing? "
-                      ),
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "Today\u2019s world is surrounded by maliciouscybercrimes. Phishing is one of them ...."
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "ruus" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "cur", style: { borderRight: '1px solid' } },
-                        _react2.default.createElement(
-                          "h4",
-                          null,
-                          "22 February 2018"
-                        ),
-                        " "
-                      ),
-                      _react2.default.createElement(
-                        "div",
-                        { className: "cur" },
-                        _react2.default.createElement(
-                          "h4",
-                          null,
-                          "3 mints read"
-                        )
-                      ),
-                      _react2.default.createElement("div", { style: { clear: 'both' } })
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-md-3 col-sm-12 ft" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "blogs-post" },
-                    _react2.default.createElement("img", { src: "/images/ddd.jpg", style: { width: '100%' } }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "" },
-                      _react2.default.createElement(
-                        "h3",
-                        null,
-                        "How Dangerous Is the Web Today "
-                      ),
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "There is no doubt that internet is a wonderful tool for many ....  ",
-                        _react2.default.createElement("br", null)
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "ruus" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "cur", style: { borderRight: '1px solid' } },
-                        _react2.default.createElement(
-                          "h4",
-                          null,
-                          "22 February 2018"
-                        ),
-                        " "
-                      ),
-                      _react2.default.createElement(
-                        "div",
-                        { className: "cur" },
-                        _react2.default.createElement(
-                          "h4",
-                          null,
-                          "3 mints read"
-                        ),
-                        " "
-                      ),
-                      _react2.default.createElement("div", { style: { clear: 'both' } })
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-md-3 col-sm-12 ft" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "blogs-post" },
-                    _react2.default.createElement("img", { src: "/images/ddd.jpg", style: { width: '100%' } }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "" },
-                      _react2.default.createElement(
-                        "h3",
-                        null,
-                        "What is a Trojan Horse? "
-                      ),
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "There are so many threats lurking around the internet nowadays. If you are not...  "
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "ruus" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "cur", style: { borderRight: '1px solid' } },
-                        _react2.default.createElement(
-                          "h4",
-                          null,
-                          "22 February 2018"
-                        ),
-                        " "
-                      ),
-                      _react2.default.createElement(
-                        "div",
-                        { className: "cur" },
-                        _react2.default.createElement(
-                          "h4",
-                          null,
-                          "3 mints read"
-                        ),
-                        " "
-                      ),
-                      _react2.default.createElement("div", { style: { clear: 'both' } })
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "col-md-3 col-sm-12 ft" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "blogs-post" },
-                    _react2.default.createElement("img", { src: "/images/ddd.jpg", style: { width: '100%' } }),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "" },
-                      _react2.default.createElement(
-                        "h3",
-                        null,
-                        "How Important Is Cybersecurity In This Day And Age? "
-                      ),
-                      _react2.default.createElement(
-                        "p",
-                        null,
-                        "The security or protections of computer systems from any kind.... "
-                      )
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "ruus" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "cur", style: { borderRight: '1px solid' } },
-                        _react2.default.createElement(
-                          "h4",
-                          null,
-                          "22 February 2018"
-                        ),
-                        " "
-                      ),
-                      _react2.default.createElement(
-                        "div",
-                        { className: "cur" },
-                        _react2.default.createElement(
-                          "h4",
-                          null,
-                          "3 mints read"
-                        ),
-                        " "
-                      ),
-                      _react2.default.createElement("div", { style: { clear: 'both' } })
-                    )
-                  )
-                )
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return Content;
-}(_react.Component);
-
-exports.default = Content;
 
 /***/ })
 /******/ ]);

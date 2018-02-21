@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class Content extends Component {
   render() {
     return(
@@ -12,7 +12,7 @@ class Content extends Component {
                   <div className="blogs-post">
                     <img src="/images/ddd.jpg" style={{width:'100%'}} />
                     <div className="">
-                      <h3>What Is Adware? </h3>
+                      <Link to="/blog/what-is-adware"><h3>What Is Adware? </h3></Link>
                       <p>Almost everyone deals with Adware now. Adware is a bit typical malware that... </p>
 
                     </div>
@@ -27,7 +27,8 @@ class Content extends Component {
                   <div className="blogs-post">
                     <img src="/images/ddd.jpg" style={{width:'100%'}}/>
                     <div className="">
-                      <h3>What Is Phishing? </h3>
+                      <Link to="/blog/what-is-phishing"><h3>What Is Phishing?</h3></Link>
+
                       <p>Today’s world is surrounded by maliciouscybercrimes. Phishing is one of them ....</p>
 
                     </div>
@@ -42,7 +43,8 @@ class Content extends Component {
                   <div className="blogs-post">
                     <img src="/images/ddd.jpg" style={{width:'100%'}}/>
                     <div className="">
-                      <h3>How Dangerous Is the Web Today </h3>
+                      <Link to="/blog/how-dangerous-is-the-web-today"><h3>How Dangerous Is the Web Today</h3></Link>
+
                       <p>There is no doubt that internet is a wonderful tool for many ....  <br/></p>
 
                     </div>
@@ -56,7 +58,8 @@ class Content extends Component {
                     <div className="blogs-post">
                       <img src="/images/ddd.jpg" style={{width:'100%'}}/>
                       <div className="">
-                        <h3>What is a Trojan Horse? </h3>
+                        <Link to="/blog/what-is-a-trojan-horse"><h3>What is a Trojan Horse?</h3></Link>
+
                         <p>There are so many threats lurking around the internet nowadays. If you are not...  </p>
 
                       </div>
@@ -71,7 +74,8 @@ class Content extends Component {
                     <div className="blogs-post">
                       <img src="/images/ddd.jpg" style={{width:'100%'}}/>
                       <div className="">
-                        <h3>How Important Is Cybersecurity In This Day And Age? </h3>
+                        <Link to="/blog/how-important-is-cybersecurity-in-this-day-and-age"><h3>How Important Is Cybersecurity In This Day And Age? </h3></Link>
+
                         <p>The security or protections of computer systems from any kind.... </p>
 
                       </div>
