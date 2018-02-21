@@ -9363,6 +9363,10 @@ var _Terms = __webpack_require__(97);
 
 var _Terms2 = _interopRequireDefault(_Terms);
 
+var _Blog = __webpack_require__(105);
+
+var _Blog2 = _interopRequireDefault(_Blog);
+
 var _Footer = __webpack_require__(100);
 
 var _Footer2 = _interopRequireDefault(_Footer);
@@ -9401,6 +9405,7 @@ var App = function (_Component) {
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/disclaimer', component: _Disclaimer2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/privacy-policy', component: _PrivacyPolicy2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/terms-and-conditions', component: _Terms2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/blog', component: _Blog2.default }),
           _react2.default.createElement(_Footer2.default, null)
         )
       );
@@ -13576,8 +13581,8 @@ var Header = function (_Component) {
                           'li',
                           null,
                           _react2.default.createElement(
-                            'a',
-                            { href: '#' },
+                            _reactRouterDom.Link,
+                            { to: '/blog' },
                             'Blog'
                           )
                         ),
@@ -30296,6 +30301,449 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         e.stopPropagation();
     });
 }(window.jQuery);
+
+/***/ }),
+/* 105 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(4);
+
+var _Banner = __webpack_require__(106);
+
+var _Banner2 = _interopRequireDefault(_Banner);
+
+var _Content = __webpack_require__(107);
+
+var _Content2 = _interopRequireDefault(_Content);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Blog = function (_Component) {
+  _inherits(Blog, _Component);
+
+  function Blog() {
+    _classCallCheck(this, Blog);
+
+    return _possibleConstructorReturn(this, (Blog.__proto__ || Object.getPrototypeOf(Blog)).apply(this, arguments));
+  }
+
+  _createClass(Blog, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "Blog";
+      $(window).scrollTop(0);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_Banner2.default, null),
+        _react2.default.createElement(
+          'main',
+          null,
+          _react2.default.createElement(_Content2.default, null)
+        )
+      );
+    }
+  }]);
+
+  return Blog;
+}(_react.Component);
+
+exports.default = Blog;
+
+/***/ }),
+/* 106 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Banner = function (_Component) {
+  _inherits(Banner, _Component);
+
+  function Banner() {
+    _classCallCheck(this, Banner);
+
+    return _possibleConstructorReturn(this, (Banner.__proto__ || Object.getPrototypeOf(Banner)).apply(this, arguments));
+  }
+
+  _createClass(Banner, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'section',
+        { className: 'banner', style: { height: '290px' } },
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'banner-content' },
+            _react2.default.createElement(
+              'h1',
+              null,
+              'Blog'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'shield' },
+            _react2.default.createElement('img', { src: '/images/shield.png', alt: '' })
+          )
+        )
+      );
+    }
+  }]);
+
+  return Banner;
+}(_react.Component);
+
+exports.default = Banner;
+
+/***/ }),
+/* 107 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Content = function (_Component) {
+  _inherits(Content, _Component);
+
+  function Content() {
+    _classCallCheck(this, Content);
+
+    return _possibleConstructorReturn(this, (Content.__proto__ || Object.getPrototypeOf(Content)).apply(this, arguments));
+  }
+
+  _createClass(Content, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "section",
+        { className: "content-part" },
+        _react2.default.createElement(
+          "div",
+          { className: "container" },
+          _react2.default.createElement(
+            "div",
+            { className: "col-md-12 col-sm-12 col-xs-12 padd-r-15" },
+            _react2.default.createElement(
+              "div",
+              { className: "row" },
+              _react2.default.createElement(
+                "form",
+                { className: "search-form fromm" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-md-3 col-sm-12 ft" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blogs-post" },
+                    _react2.default.createElement("img", { src: "/images/ddd.jpg", style: { width: '100%' } }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "" },
+                      _react2.default.createElement(
+                        "h3",
+                        null,
+                        "What Is Adware? "
+                      ),
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Almost everyone deals with Adware now. Adware is a bit typical malware that... "
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "ruus" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "cur", style: { borderRight: '1px solid' } },
+                        _react2.default.createElement(
+                          "h4",
+                          null,
+                          "22 February 2018"
+                        ),
+                        " "
+                      ),
+                      _react2.default.createElement(
+                        "div",
+                        { className: "cur" },
+                        _react2.default.createElement(
+                          "h4",
+                          null,
+                          "3 mints read"
+                        ),
+                        " "
+                      ),
+                      _react2.default.createElement("div", { style: { clear: 'both' } })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-md-3 col-sm-12 ft" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blogs-post" },
+                    _react2.default.createElement("img", { src: "/images/ddd.jpg", style: { width: '100%' } }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "" },
+                      _react2.default.createElement(
+                        "h3",
+                        null,
+                        "What Is Phishing? "
+                      ),
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "Today\u2019s world is surrounded by maliciouscybercrimes. Phishing is one of them ...."
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "ruus" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "cur", style: { borderRight: '1px solid' } },
+                        _react2.default.createElement(
+                          "h4",
+                          null,
+                          "22 February 2018"
+                        ),
+                        " "
+                      ),
+                      _react2.default.createElement(
+                        "div",
+                        { className: "cur" },
+                        _react2.default.createElement(
+                          "h4",
+                          null,
+                          "3 mints read"
+                        )
+                      ),
+                      _react2.default.createElement("div", { style: { clear: 'both' } })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-md-3 col-sm-12 ft" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blogs-post" },
+                    _react2.default.createElement("img", { src: "/images/ddd.jpg", style: { width: '100%' } }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "" },
+                      _react2.default.createElement(
+                        "h3",
+                        null,
+                        "How Dangerous Is the Web Today "
+                      ),
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "There is no doubt that internet is a wonderful tool for many ....  ",
+                        _react2.default.createElement("br", null)
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "ruus" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "cur", style: { borderRight: '1px solid' } },
+                        _react2.default.createElement(
+                          "h4",
+                          null,
+                          "22 February 2018"
+                        ),
+                        " "
+                      ),
+                      _react2.default.createElement(
+                        "div",
+                        { className: "cur" },
+                        _react2.default.createElement(
+                          "h4",
+                          null,
+                          "3 mints read"
+                        ),
+                        " "
+                      ),
+                      _react2.default.createElement("div", { style: { clear: 'both' } })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-md-3 col-sm-12 ft" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blogs-post" },
+                    _react2.default.createElement("img", { src: "/images/ddd.jpg", style: { width: '100%' } }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "" },
+                      _react2.default.createElement(
+                        "h3",
+                        null,
+                        "What is a Trojan Horse? "
+                      ),
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "There are so many threats lurking around the internet nowadays. If you are not...  "
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "ruus" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "cur", style: { borderRight: '1px solid' } },
+                        _react2.default.createElement(
+                          "h4",
+                          null,
+                          "22 February 2018"
+                        ),
+                        " "
+                      ),
+                      _react2.default.createElement(
+                        "div",
+                        { className: "cur" },
+                        _react2.default.createElement(
+                          "h4",
+                          null,
+                          "3 mints read"
+                        ),
+                        " "
+                      ),
+                      _react2.default.createElement("div", { style: { clear: 'both' } })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-md-3 col-sm-12 ft" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "blogs-post" },
+                    _react2.default.createElement("img", { src: "/images/ddd.jpg", style: { width: '100%' } }),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "" },
+                      _react2.default.createElement(
+                        "h3",
+                        null,
+                        "How Important Is Cybersecurity In This Day And Age? "
+                      ),
+                      _react2.default.createElement(
+                        "p",
+                        null,
+                        "The security or protections of computer systems from any kind.... "
+                      )
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "ruus" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "cur", style: { borderRight: '1px solid' } },
+                        _react2.default.createElement(
+                          "h4",
+                          null,
+                          "22 February 2018"
+                        ),
+                        " "
+                      ),
+                      _react2.default.createElement(
+                        "div",
+                        { className: "cur" },
+                        _react2.default.createElement(
+                          "h4",
+                          null,
+                          "3 mints read"
+                        ),
+                        " "
+                      ),
+                      _react2.default.createElement("div", { style: { clear: 'both' } })
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Content;
+}(_react.Component);
+
+exports.default = Content;
 
 /***/ })
 /******/ ]);

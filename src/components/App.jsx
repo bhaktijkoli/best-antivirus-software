@@ -9,6 +9,7 @@ import Contact from './Contact/Contact.jsx';
 import Disclaimer from './Disclaimer/Disclaimer.jsx';
 import PrivacyPolicy from './PrivacyPolicy/PrivacyPolicy.jsx';
 import Terms from './Terms/Terms.jsx';
+import Blog from './Blog/Blog.jsx';
 import Footer from './Footer/Footer.jsx';
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
             <Route exact path="/disclaimer" component={Disclaimer}/>
             <Route exact path="/privacy-policy" component={PrivacyPolicy}/>
             <Route exact path="/terms-and-conditions" component={Terms}/>
+            <Route exact path="/blog" component={Blog}/>
           <Footer />
         </div>
       </BrowserRouter>
